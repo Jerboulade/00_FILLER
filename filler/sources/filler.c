@@ -51,7 +51,7 @@ int		start_game(t_game *game)
 		ft_putendl_fd("\n########### CACA 4 ###########\n", game->fd_bot);
 		parse_piece(game);
 		ft_putendl_fd("\n########### CACA 5 ###########\n", game->fd_bot);
-		// print_game(game, NULL);
+		print_game(game, "map");
 		ft_putendl_fd("\n########### CACA 6 ###########\n", game->fd_bot);
 		put_piece(game);
 		ft_putendl_fd("\n########### CACA 7 ###########\n", game->fd_bot);

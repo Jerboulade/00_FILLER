@@ -65,7 +65,7 @@ void check_placement(t_game *game)
 	while (++i <= nb_placement)
 		game->pc.placement[i] = NULL;
 	i = -1;
-	//double while, je teste, un à un tous les blocks de la pièce sur tous les blocks précédement posés
+	//double while i-j, je teste, un à un tous les blocks de la pièce sur tous les blocks précédement posés
 	while (++i < game->pl.n_blok)
 	{
 		j = -1;
