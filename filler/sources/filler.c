@@ -15,8 +15,8 @@
 void reset(t_game *game)
 {
 	ft_strdel(&game->pc.piece);
-	free(game->op.last_blok);
-	game->op.last_blok = NULL;
+	// free(game->op.last_blok);
+	// game->op.last_blok = NULL;
 	// free(game->pl.last_blok);
 	// game->pl.last_blok = NULL;
 	ft_strdel(&game->pc.piece);
@@ -26,7 +26,6 @@ void reset(t_game *game)
 	game->pl.n_blok = 0;
 	game->op.n_blok = 0;
 	game->op.n_last_blok = 0;
-	game->pl.n_last_blok = 0;
 	game->lap++;
 }
 
@@ -42,21 +41,23 @@ int		start_game(t_game *game)
 
 	while (19)
 	{
-		ft_putendl_fd("\n########### CACA 1 ###########\n", game->fd_bot);
+		// ft_putendl_fd("\n########### CACA 1 ###########\n", game->fd_bot);
 		get_map(game);
-		ft_putendl_fd("\n########### CACA 2 ###########\n", game->fd_bot);
+		// ft_putendl_fd("\n########### CACA 2 ###########\n", game->fd_bot);
 		get_piece(game);
-		ft_putendl_fd("\n########### CACA 3 ###########\n", game->fd_bot);
-		parse_map(game);
-		ft_putendl_fd("\n########### CACA 4 ###########\n", game->fd_bot);
+		// ft_putendl_fd("\n########### CACA 3 ###########\n", game->fd_bot);
+		parse_map(game, -1, -1, -1);
+		if (game->lap)
+			compare_map(game);
+		// ft_putendl_fd("\n########### CACA 4 ###########\n", game->fd_bot);
 		parse_piece(game);
-		ft_putendl_fd("\n########### CACA 5 ###########\n", game->fd_bot);
-		print_game(game, "map");
-		ft_putendl_fd("\n########### CACA 6 ###########\n", game->fd_bot);
+		// ft_putendl_fd("\n########### CACA 5 ###########\n", game->fd_bot);
+		// print_game(game, "map");
+		// ft_putendl_fd("\n########### CACA 6 ###########\n", game->fd_bot);
 		put_piece(game);
-		ft_putendl_fd("\n########### CACA 7 ###########\n", game->fd_bot);
+		// ft_putendl_fd("\n########### CACA 7 ###########\n", game->fd_bot);
 		reset(game);
-		ft_putendl_fd("\n########### CACA 11 ###########\n", game->fd_bot);
+		// ft_putendl_fd("\n########### CACA 11 ###########\n", game->fd_bot);
 	}
 	// while (get_next_line(0, &line) > 0)
 	// {

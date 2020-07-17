@@ -1,6 +1,4 @@
-seed = 2062
-X: error on input
-O: error on input
+seed = 3594
 ./jecarere.filler won
 Score:
-28AGAINST27
+258AGAINST71

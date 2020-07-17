@@ -15,27 +15,6 @@ void	print_game(t_game *game, char *option)
 		ft_putstr_fd("   nb player blocks on the map: ", game->fd_bot);
 		ft_putnbr_fd(game->pl.n_blok, game->fd_bot);
 		ft_putchar_fd('\n', game->fd_bot);
-		ft_putstr_fd("   nb previous blocks: ", game->fd_bot);
-		ft_putnbr_fd(game->pl.n_last_blok, game->fd_bot);
-		ft_putchar_fd('\n', game->fd_bot);
-		if (!game->lap)
-		{
-			ft_putstr_fd("   last blocks: ", game->fd_bot);
-			ft_putnbr_fd(game->pl.first_blok, game->fd_bot);
-			ft_putchar_fd('\n', game->fd_bot);
-		}
-		else
-		{
-			ft_putstr_fd("   last blocks: ", game->fd_bot);
-			int i = -1;
-			while (++i < game->pl.n_last_blok)
-			{
-				ft_putnbr_fd(game->pl.last_blok[i], game->fd_bot);
-				if (i != (game->pl.n_last_blok - 1))
-					write(game->fd_bot, ", ", 2);
-			}
-			ft_putchar_fd('\n', game->fd_bot);
-		}
 
 	}
 	if (!option || !ft_strcmp(option, "opponent"))
@@ -131,13 +110,24 @@ void	print_game(t_game *game, char *option)
 		ft_putstr_fd("   size: ", game->fd_bot);
 		ft_putnbr_fd(game->map.size, game->fd_bot);
 		ft_putchar_fd('\n', game->fd_bot);
-		ft_putstr_fd("   map: \n", game->fd_bot);
+		ft_putstr_fd("   old_map: \n", game->fd_bot);
 		int		i = -1;
 		int		j = 0;
 		while (++i < game->map.li)
 		{
 			write(game->fd_bot, "   ", 3);
-			write(game->fd_bot, game->map.map + j, game->map.col);
+			write(game->fd_bot, game->map.old_map + j, game->map.col);
+			j += game->map.col;
+			ft_putchar_fd('\n', game->fd_bot);
+		}
+		ft_putchar_fd('\n', game->fd_bot);
+		ft_putstr_fd("   new_map: \n", game->fd_bot);
+		i = -1;
+		j = 0;
+		while (++i < game->map.li)
+		{
+			write(game->fd_bot, "   ", 3);
+			write(game->fd_bot, game->map.new_map + j, game->map.col);
 			j += game->map.col;
 			ft_putchar_fd('\n', game->fd_bot);
 		}

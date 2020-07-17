@@ -11,6 +11,44 @@
 /* ************************************************************************** */
 #include "../includes/filler.h"
 
+int		compare_map(t_game *game)
+{
+	int i;
+	int j;
+
+	i = -1;
+	j = -1;
+	while (game->map.new_map[++i])
+	{
+		if ((game->map.new_map[i] == game->op.opponent) && (game->map.old_map[i] == '.'))
+			game->op.n_last_blok++;
+	}
+	if (!(game->op.last_blok = (int *)malloc(sizeof(int) * (game->op.n_last_blok + 1))))
+		return (0);
+	ft_memset(game->op.last_blok, 0, game->op.n_last_blok);
+	game->op.last_blok[game->op.n_last_blok] = -1;
+	i = -1;
+	while (game->map.new_map[++i])
+	{
+		if ((game->map.new_map[i] == game->op.opponent) && (game->map.old_map[i] == '.'))
+			game->op.last_blok[++j] = i;
+	}
+	// ## PRINT ##############################################################
+	// ft_putendl_fd("\n## Opponent last block ##############\n", game->fd_bot);
+	// i = -1;
+	// j = -1;
+	// while (game->op.last_blok[++i] != -1)
+	// {
+	// 	ft_putchar_fd('(', game->fd_bot);
+	// 	ft_putnbr_fd(game->op.last_blok[i], game->fd_bot);
+	// 	ft_putchar_fd(')', game->fd_bot);
+	// }
+	// ft_putchar_fd('\n', game->fd_bot);
+	// ## END PRINT ##########################################################
+
+	return (1);
+}
+
 int		parse_piece(t_game *game)
 {
 	int i;
@@ -39,96 +77,30 @@ int		parse_piece(t_game *game)
 	return (1);
 }
 
-int		get_map_nb_blok(t_game *game)
+int		parse_map(t_game *game, int i, int j, int k)
 {
-	int i;
-
-	i = -1;
-	while (game->map.map[++i])
+	while (game->map.new_map[++i])
 	{
-		if (game->map.map[i] == '.')
-			NULL;
-		else if ((game->map.map[i] == 'X') || (game->map.map[i] == 'O'))
-			check_block(game, game->map.map[i]);
-		// else if (game->map.map[i] == (game->op.opponent + 32))
-		// 	game->op.n_last_blok++;
-		// else if (game->map.map[i] == (game->pl.player))
-		// 	game->pl.n_blok++;
-		else
-			return (0);
+		if (game->map.new_map[i] == game->pl.player)
+			game->pl.n_blok++;
+		else if (game->map.new_map[i] == game->op.opponent)
+			game->op.n_blok++;
 	}
-	// game->op.n_blok += (!game->lap && game->pl.player == 'O') ? 0 : game->op.n_last_blok;
-	return (1);
-}
-
-// int get_player_last_block_position()
-// {
-//
-// }
-
-int		get_map_blok_position(t_game *game)
-{
-	int i;
-	int j;
-	int k;
-
-	i = -1;
-	j = -1;
-	k = -1;
-	if (!(game->op.last_blok = (int *)malloc(sizeof(int) * (game->op.n_last_blok + 1))))
+	if (!(game->op.blok = (int *)malloc(sizeof(int) * (game->op.n_blok + 1))))
 		return (0);
 	if (!(game->pl.blok = (int *)malloc(sizeof(int) * (game->pl.n_blok + 1))))
 		return (0);
 	game->pl.blok[game->pl.n_blok] = -1;
-	game->op.last_blok[game->op.n_last_blok] = -1;
-	while (game->op.last_blok[++i] != -1)
-		game->op.last_blok[i] = 0;
+	game->op.blok[game->op.n_blok] = -1;
+	ft_memset(game->pl.blok, 0, game->pl.n_blok);
+	ft_memset(game->op.blok, 0, game->op.n_blok);
 	i = -1;
-	while (game->map.map[++i])
+	while (game->map.new_map[++i])
 	{
-		if (game->map.map[i] == '.' || ((game->map.map[i] == game->op.opponent) && game->lap))
-		{
-			NULL;
-			// ft_putnbr_fd(i, game->fd_bot);
-			// ft_putendl_fd("\n## 1 check point --------------\n", game->fd_bot);
-		}
-		else if (!game->lap && (game->map.map[i] == game->pl.player))
-		{
-			game->pl.first_blok = i;
-			// ft_putnbr_fd(i, game->fd_bot);
-			// ft_putendl_fd("\n## 2 check point --------------\n", game->fd_bot);
-		}
-		else if (game->lap && (game->map.map[i] == game->pl.player))
-		{
-			game->pl.blok[++k] = i;
-			// ft_putnbr_fd(i, game->fd_bot);
-			// ft_putendl_fd("\n## 2.5 check point --------------\n", game->fd_bot);
-		}
-		else if (!game->lap && (game->map.map[i] == game->op.opponent))
-		{
-			game->op.last_blok[0] = i;
-			// ft_putnbr_fd(i, game->fd_bot);
-			// ft_putendl_fd("\n## 3 check point --------------\n", game->fd_bot);
-		}
-		else if (game->map.map[i] == (game->op.opponent + 32))
-		{
-			game->op.last_blok[++j] = i;
-			// ft_putnbr_fd(i, game->fd_bot);
-			// ft_putendl_fd("\n## 4 check point --------------\n", game->fd_bot);
-		}
-		else
-		{
-			// ft_putnbr_fd(i, game->fd_bot);
-			// ft_putendl_fd("\n## 5 check point --------------\n", game->fd_bot);
-			return (0);
-		}
+		if (game->map.new_map[i] == game->pl.player)
+			game->pl.blok[++j] = i;
+		else if (game->map.new_map[i] == game->op.opponent)
+			game->op.blok[++k] = i;
 	}
-	return (1);
-}
-
-int		parse_map(t_game *game)
-{
-	get_map_nb_blok(game);
-	get_map_blok_position(game);
 	return (1);
 }

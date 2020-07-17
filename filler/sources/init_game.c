@@ -17,7 +17,7 @@ void	init_map(t_game *game)
 	game->map.li = 0;
 	game->map.col = 0;
 	game->map.size = 0;
-	game->map.map = NULL;
+	game->map.new_map = NULL;
 }
 
 void	init_piece(t_game *game)
@@ -30,14 +30,13 @@ void	init_player(t_game *game)
 {
 	game->pl.player = 0;
 	game->pl.n_blok = 0;
-	game->pl.n_last_blok = 1;
 }
 
 void	init_opponent(t_game *game)
 {
 	game->op.opponent = 0;
 	game->op.n_blok = 0;
-	game->pl.n_last_blok = 1;
+	game->op.n_last_blok = 0;
 }
 
 void init_game(t_game *game)

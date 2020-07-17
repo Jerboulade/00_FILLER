@@ -25,8 +25,8 @@ typedef struct	s_map
 	int			li;
 	int			col;
 	int			size;
-	char		*map;
-
+	char		*new_map;
+	char		*old_map;
 }				t_map;
 
 typedef struct	s_piece
@@ -46,9 +46,6 @@ typedef struct	s_player
 	char		player;
 	int			n_blok;
 	int 		*blok;
-	int			first_blok;
-	int			*last_blok;
-	int			n_last_blok;
 
 }				t_player;
 
@@ -56,8 +53,9 @@ typedef struct	s_opponent
 {
 	char		opponent;
 	int			n_blok;
-	int			*last_blok;
+	int			*blok;
 	int			n_last_blok;
+	int			*last_blok;
 
 
 }				t_opponent;
@@ -94,9 +92,8 @@ int		get_players(t_game *game);
 **		parsing.c
 */
 int		parse_piece(t_game *game);
-int		get_map_nb_blok(t_game *game);
-int		get_map_blok_position(t_game *game);
-int		parse_map(t_game *game);
+int		compare_map(t_game *game);
+int		parse_map(t_game *game, int i, int j, int k);
 /*
 **		resolution.c
 */
@@ -104,6 +101,7 @@ void	check_placement(t_game *game);
 void	put_piece(t_game *game);
 void	check_block(t_game *game, char blok);
 int		*dup_blok(int *blok, int n_blok);
+int		algo(t_game *game);
 
 
 #endif

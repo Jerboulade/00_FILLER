@@ -47,7 +47,9 @@ int		create_map(t_game *game, char *line)
 	if ((game->map.li <= 0) || (game->map.col <= 0))
 		return (0);
 	game->map.size = game->map.li * game->map.col;
-	if (!(game->map.map = ft_strnew(game->map.size)))
+	if (!(game->map.new_map = ft_strnew(game->map.size)))
+		return (0);
+	if (!(game->map.old_map = ft_strnew(game->map.size)))
 		return (0);
 	return (1);
 }
@@ -67,6 +69,8 @@ int		get_map(t_game *game)
 		if (!create_map(game, line))
 			return (0);
 	}
+	else
+		ft_strcpy(game->map.old_map, game->map.new_map);
 	if (get_next_line(0, &line) < 0)
 		return (0);
 	//ft_putendl_fd("before map2\n", game->fd_bot);
@@ -81,7 +85,7 @@ int		get_map(t_game *game)
 		if (get_next_line(0, &line) < 0)
 			return (0);
 		//ft_putendl_fd("line2", game->fd_bot);
-		ft_strncpy(game->map.map + j, line + 4, game->map.col);
+		ft_strncpy(game->map.new_map + j, line + 4, game->map.col);
 		j += game->map.col;
 	}
 	free(line);

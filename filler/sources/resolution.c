@@ -11,17 +11,6 @@
 /* ************************************************************************** */
 #include "../includes/filler.h"
 
-void	check_block(t_game *game, char blok)
-{
-	if (game->pl.player == blok)
-		game->pl.n_blok++;
-	else
-	{
-		game->op.n_blok++;
-		// game->op.n_last_blok += !game->lap ? 1 : 0;
-	}
-}
-
 int *dup_blok(int *blok, int n_blok)
 {
 	int *dup;
@@ -74,9 +63,9 @@ void check_placement(t_game *game)
 			//récupération de données
 
 			pc_bloks = dup_blok(game->pc.blok, game->pc.n_blok);
-			ft_putendl_fd("\n########### CACA 8 ###########\n", game->fd_bot);
-			map_blok_start = (!game->lap ? game->pl.first_blok : game->pl.blok[i]);
-			ft_putendl_fd("\n########### CACA 9 ###########\n", game->fd_bot);
+			// ft_putendl_fd("\n########### CACA 8 ###########\n", game->fd_bot);
+			map_blok_start = game->pl.blok[i];
+			// ft_putendl_fd("\n########### CACA 9 ###########\n", game->fd_bot);
 			pc_blok_start = pc_bloks[j];
 
 			//transformation des coordonnées de la pièces pour qu'elles correspondent aux coordonnées de la map, à partir de la coordonnée du block testé
@@ -93,40 +82,44 @@ void check_placement(t_game *game)
 				{
 					pc_bloks[k] = map_blok_start + (((pc_bloks[k] / game->pc.col) - (pc_blok_start / game->pc.col)) * game->map.col) + ((pc_bloks[k] % game->pc.col) - (pc_blok_start % game->pc.col));
 					// check si pqs hors map
-					ft_putendl_fd("\n########### CACA prout ###########\n", game->fd_bot);
-					ft_putnbr_fd(pc_bloks[k], game->fd_bot);
-					ft_putstr_fd(" = ", game->fd_bot);
-					ft_putnbr_fd(map_blok_start, game->fd_bot);
-					ft_putstr_fd(" + ((", game->fd_bot);
-					ft_putnbr_fd((pc_bloks[k] / game->pc.col), game->fd_bot);
-					ft_putstr_fd(" - ", game->fd_bot);
-					ft_putnbr_fd((pc_blok_start / game->pc.col), game->fd_bot);
-					ft_putstr_fd(") * ", game->fd_bot);
-					ft_putnbr_fd(game->map.col, game->fd_bot);
-					ft_putstr_fd(") + (", game->fd_bot);
-					ft_putnbr_fd((pc_bloks[k] % game->pc.col), game->fd_bot);
-					ft_putstr_fd(" - ", game->fd_bot);
-					ft_putnbr_fd((pc_blok_start % game->pc.col), game->fd_bot);
-					ft_putstr_fd(") ", game->fd_bot);
+					// ft_putendl_fd("\n########### CACA prout ###########\n", game->fd_bot);
+					// ft_putnbr_fd(pc_bloks[k], game->fd_bot);
+					// ft_putstr_fd(" = ", game->fd_bot);
+					// ft_putnbr_fd(map_blok_start, game->fd_bot);
+					// ft_putstr_fd(" + ((", game->fd_bot);
+					// ft_putnbr_fd((pc_bloks[k] / game->pc.col), game->fd_bot);
+					// ft_putstr_fd(" - ", game->fd_bot);
+					// ft_putnbr_fd((pc_blok_start / game->pc.col), game->fd_bot);
+					// ft_putstr_fd(") * ", game->fd_bot);
+					// ft_putnbr_fd(game->map.col, game->fd_bot);
+					// ft_putstr_fd(") + (", game->fd_bot);
+					// ft_putnbr_fd((pc_bloks[k] % game->pc.col), game->fd_bot);
+					// ft_putstr_fd(" - ", game->fd_bot);
+					// ft_putnbr_fd((pc_blok_start % game->pc.col), game->fd_bot);
+					// ft_putstr_fd(") ", game->fd_bot);
 
-					if (pc_bloks[k] < 0)
+					if ((pc_bloks[k] < 0) || (pc_bloks[k] >= game->map.size))
 						out = 0;
 					else
 					{
-						if (game->map.map[pc_bloks[k]] != '.')
+						// ft_putendl_fd("#\n", game->fd_bot);
+						// ft_putnbr_fd(pc_bloks[k], game->fd_bot);
+						if (game->map.new_map[pc_bloks[k]] != '.')
 						{
-							ft_putendl_fd("\n##### OCCUPIED ####\n", game->fd_bot);
+							// ft_putnbr_fd(pc_bloks[k], game->fd_bot);
+							// ft_putchar_fd(game->map.new_map[pc_bloks[k]], game->fd_bot);
+							// ft_putendl_fd("\n##### OCCUPIED ####\n", game->fd_bot);
 							out = 0;
 						}
 
 						if ((((map_blok_start % game->map.col) + ((game->pc.blok[k] % game->pc.col) - (pc_blok_start % game->pc.col))) < 0) || (((map_blok_start % game->map.col) + ((game->pc.blok[k] % game->pc.col) - (pc_blok_start % game->pc.col))) >= game->map.col))
 						{
-							ft_putendl_fd("\n##### OUT COL #####\n", game->fd_bot);
+							// ft_putendl_fd("\n##### OUT COL #####\n", game->fd_bot);
 							out = 0;
 						}
 						if ((((map_blok_start / game->map.col) + ((game->pc.blok[k] / game->pc.col) - (pc_blok_start / game->pc.col))) < 0) || (((map_blok_start / game->map.col) + ((game->pc.blok[k] / game->pc.col) - (pc_blok_start / game->pc.col))) >= game->map.col))
 						{
-							ft_putendl_fd("\n##### OUT LI ######\n", game->fd_bot);
+							// ft_putendl_fd("\n##### OUT LI ######\n", game->fd_bot);
 							out = 0;
 						}
 					}
@@ -151,13 +144,13 @@ void check_placement(t_game *game)
 					// ft_putstr_fd(" - ", game->fd_bot);
 					// ft_putnbr_fd((pc_blok_start % game->pc.col), game->fd_bot);
 					// ft_putstr_fd(" )", game->fd_bot);
-					ft_putendl_fd("\n\n########### CACA 10 ###########\n", game->fd_bot);
+					// ft_putendl_fd("\n\n########### CACA 10 ###########\n", game->fd_bot);
 				}
 			}
 			if (out)
 			{
-				if (!(game->pc.placement[l] = (int *)malloc(sizeof(int) * (game->pc.n_blok + 1))))
-					return ;
+				// if (!(game->pc.placement[l] = (int *)malloc(sizeof(int) * (game->pc.n_blok + 1))))
+				// 	return ;
 				game->pc.placement[l] = pc_bloks; // malloc le pc_blocks
 				l++;
 			}
@@ -165,36 +158,94 @@ void check_placement(t_game *game)
 	}
 
 	// ## PRINT ##############################################################
-	ft_putendl_fd("\n## Possible placement ##############\n", game->fd_bot);
-	i = -1;
-	while (game->pc.placement[++i])
-	{
-		ft_putchar_fd('(', game->fd_bot);
-		j = -1;
-		while (game->pc.placement[i][++j] != -1)
-		{
-			ft_putnbr_fd(game->pc.placement[i][j], game->fd_bot);
-			if (game->pc.placement[i][j + 1] != -1)
-				write(game->fd_bot, ", ", 2);
-		}
-		ft_putchar_fd(')', game->fd_bot);
-		ft_putchar_fd('\n', game->fd_bot);
-	}
+	// ft_putendl_fd("\n## Possible placement ##############\n", game->fd_bot);
+	// i = -1;
+	// while (game->pc.placement[++i])
+	// {
+	// 	ft_putchar_fd('(', game->fd_bot);
+	// 	j = -1;
+	// 	while (game->pc.placement[i][++j] != -1)
+	// 	{
+	// 		ft_putnbr_fd(game->pc.placement[i][j], game->fd_bot);
+	// 		if (game->pc.placement[i][j + 1] != -1)
+	// 			write(game->fd_bot, ", ", 2);
+	// 	}
+	// 	ft_putchar_fd(')', game->fd_bot);
+	// 	ft_putchar_fd('\n', game->fd_bot);
+	// }
 	// ## END PRINT ##########################################################
 
 }
 
-void put_piece(t_game *game)
+int		algo(t_game *game)
+{
+
+	int top_dist;
+	int top_dist_i;
+	int dist;
+	int tmp;
+	int i;
+	int j;
+	int k;
+
+	top_dist = 0;
+	i = -1;
+	while (game->pc.placement[++i])
+	{
+		j = -1;
+		dist = 0;
+		while (game->pc.placement[i][++j] != -1)
+		{
+			k = -1;
+			while (game->op.last_blok[++k] != -1)
+			{
+				tmp = (game->pc.placement[i][j] % game->map.col) - (game->op.last_blok[k] % game->map.col);
+				tmp *= (tmp < 0) ? -1 : 1;
+				dist += tmp;
+				tmp = (game->pc.placement[i][j] / game->map.col) - (game->op.last_blok[k] / game->map.col);
+				tmp *= (tmp < 0) ? -1 : 1;
+				dist += tmp;
+			}
+		}
+		if (!i)
+		{
+			top_dist = dist;
+			top_dist_i = i;
+		}
+		else if (i && (dist < top_dist))
+		{
+			top_dist = dist;
+			top_dist_i = i;
+		}
+	}
+	return (top_dist_i);
+}
+
+void 	put_piece(t_game *game)
 {
 	int x;
 	int y;
+	int topi;
 	// int placement;
-	ft_putendl_fd("\n########### CACA 7 bis ###########\n", game->fd_bot);
+	// ft_putendl_fd("\n########### CACA 7 bis ###########\n", game->fd_bot);
 
 	check_placement(game);
-
-	x = (game->pc.placement[0][0] % game->map.col) - (game->pc.blok[0] % game->pc.col);
-	y = (game->pc.placement[0][0] / game->map.col) - (game->pc.blok[0] / game->pc.col);
+	topi = 0;
+	if (game->lap)
+		topi = algo(game);
+	if (game->pc.placement[0] == NULL)
+	{
+		ft_putnbr(0);
+		ft_putchar(' ');
+		ft_putnbr(0);
+		ft_putchar('\n');
+		exit(0);
+	}
+	else
+	{
+		x = (game->pc.placement[topi][0] % game->map.col) - (game->pc.blok[0] % game->pc.col);
+		y = (game->pc.placement[topi][0] / game->map.col) - (game->pc.blok[0] / game->pc.col);
+	}
 	// game->pl.n_last_blok = game->pc.n_blok;
 	// game->pl.last_blok = dup_blok(game->pc.placement[0], game->pc.n_blok);
 	// x = (game->pl.last_blok[0] % game->map.col) - (game->pc.blok[0] % game->pc.col);
@@ -206,14 +257,14 @@ void put_piece(t_game *game)
 	ft_putchar('\n');
 
 	// ## PRINT ##############################################################
-	ft_putendl_fd("\n## Placement coordinates ###########\n", game->fd_bot);
-	ft_putstr_fd("x: ", game->fd_bot);
-	ft_putnbr_fd(x, game->fd_bot);
-	ft_putchar_fd('\n', game->fd_bot);
-	ft_putstr_fd("y: ", game->fd_bot);
-	ft_putnbr_fd(y, game->fd_bot);
-	ft_putchar_fd('\n', game->fd_bot);
-	ft_putchar_fd('\n', game->fd_bot);
+	// ft_putendl_fd("\n## Placement coordinates ###########\n", game->fd_bot);
+	// ft_putstr_fd("x: ", game->fd_bot);
+	// ft_putnbr_fd(x, game->fd_bot);
+	// ft_putchar_fd('\n', game->fd_bot);
+	// ft_putstr_fd("y: ", game->fd_bot);
+	// ft_putnbr_fd(y, game->fd_bot);
+	// ft_putchar_fd('\n', game->fd_bot);
+	// ft_putchar_fd('\n', game->fd_bot);
 	// ## END PRINT ##########################################################
 
 }
