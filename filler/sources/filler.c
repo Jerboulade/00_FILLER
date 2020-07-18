@@ -12,58 +12,62 @@
 
 #include "../includes/filler.h"
 
-void reset(t_game *game)
+void	end_game(t_game *game)
 {
+	ft_strdel(&game->map.new_map);
+	ft_strdel(&game->map.old_map);
+	ft_putnbr(0);
+	ft_putchar(' ');
+	ft_putnbr(0);
+	ft_putchar('\n');
+	exit(0);
+}
+
+void reset(t_game *game, int end)
+{
+	game->pc.li = 0;
+	game->pc.col = 0;
+	game->pc.size = 0;
 	ft_strdel(&game->pc.piece);
-	// free(game->op.last_blok);
-	// game->op.last_blok = NULL;
-	// free(game->pl.last_blok);
-	// game->pl.last_blok = NULL;
-	ft_strdel(&game->pc.piece);
-	free(game->pc.blok);
-	game->pc.blok = NULL;
+	ft_intdel(&game->pc.blok);
+	ft_frintab(game->pc.placement, (game->pl.n_blok * game->pc.n_blok) + 1);
 	game->pc.n_blok = 0;
+
 	game->pl.n_blok = 0;
-	game->op.n_blok = 0;
-	game->op.n_last_blok = 0;
+	ft_intdel(&game->pl.blok);
+
+	game->op.n_last = 0;
+	ft_intdel(&game->op.last);
+
+	if (end)
+		end_game(game);
+
 	game->lap++;
 }
 
 int		start_game(t_game *game)
 {
-	// char *line;
-	// int i = -1;
-
 	if ((game->fd_bot = open("./bot_log/log.txt", O_WRONLY| O_CREAT, 0777)) == -1)
 		return (0);
 
-	get_players(game);
+	if (!(get_players(game)))
+		reset(game, 1);
 
 	while (19)
 	{
-		// ft_putendl_fd("\n########### CACA 1 ###########\n", game->fd_bot);
-		get_map(game);
-		// ft_putendl_fd("\n########### CACA 2 ###########\n", game->fd_bot);
-		get_piece(game);
-		// ft_putendl_fd("\n########### CACA 3 ###########\n", game->fd_bot);
-		parse_map(game, -1, -1, -1);
+		if (!(get_map(game, -1, 0)))
+			reset(game, 1);
+		if (!(get_piece(game)))
+			reset(game, 1);
+		if (!(parse_map(game, -1, -1)))
+			reset(game, 1);
 		if (game->lap)
 			compare_map(game);
-		// ft_putendl_fd("\n########### CACA 4 ###########\n", game->fd_bot);
-		parse_piece(game);
-		// ft_putendl_fd("\n########### CACA 5 ###########\n", game->fd_bot);
-		// print_game(game, "map");
-		// ft_putendl_fd("\n########### CACA 6 ###########\n", game->fd_bot);
+		if (!(parse_piece(game)))
+			reset(game, 1);
 		put_piece(game);
-		// ft_putendl_fd("\n########### CACA 7 ###########\n", game->fd_bot);
-		reset(game);
-		// ft_putendl_fd("\n########### CACA 11 ###########\n", game->fd_bot);
+		reset(game, 0);
 	}
-	// while (get_next_line(0, &line) > 0)
-	// {
-	// 	ft_putstr_fd(line, game->fd_bot);
-	// 	ft_putchar_fd('\n', game->fd_bot);
-	// }
 	return (1);
 }
 

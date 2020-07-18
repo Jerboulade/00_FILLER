@@ -13,14 +13,13 @@
 
 int		get_piece(t_game *game)
 {
-	char	*line;
 	int		i;
 	int		j;
 
-	if (get_next_line(0, &line) < 0)
+	if (get_next_line(0, &game->line) < 0)
 		return (0);
-	game->pc.li = ft_atoi(ft_strchr(line, ' ') + 1);
-	game->pc.col = ft_atoi(ft_strrchr(line, ' ') + 1);
+	game->pc.li = ft_atoi(ft_strchr(game->line, ' ') + 1);
+	game->pc.col = ft_atoi(ft_strrchr(game->line, ' ') + 1);
 	if ((game->pc.li <= 0) || (game->pc.col <= 0))
 		return (0);
 	game->pc.size = game->pc.li * game->pc.col;
@@ -28,22 +27,22 @@ int		get_piece(t_game *game)
 		return (0);
 	i = -1;
 	j = 0;
+	ft_strdel(&game->line);
 	while (++i < game->pc.li)
 	{
-		if (get_next_line(0, &line) < 0)
+		if (get_next_line(0, &game->line) < 0)
 			return (0);
-		ft_strncpy(game->pc.piece + j, line, game->pc.col);
+		ft_strncpy(game->pc.piece + j, game->line, game->pc.col);
 		j += game->pc.col;
+		ft_strdel(&game->line);
 	}
-	free(line);
-
 	return (1);
 }
 
-int		create_map(t_game *game, char *line)
+int		create_map(t_game *game)
 {
-	game->map.li = ft_atoi(ft_strchr(line, ' ') + 1);
-	game->map.col = ft_atoi(ft_strrchr(line, ' ') + 1);
+	game->map.li = ft_atoi(ft_strchr(game->line, ' ') + 1);
+	game->map.col = ft_atoi(ft_strrchr(game->line, ' ') + 1);
 	if ((game->map.li <= 0) || (game->map.col <= 0))
 		return (0);
 	game->map.size = game->map.li * game->map.col;
@@ -54,55 +53,42 @@ int		create_map(t_game *game, char *line)
 	return (1);
 }
 
-int		get_map(t_game *game)
+int		get_map(t_game *game, int i, int j)
 {
-	char	*line;
-	int		i;
-	int		j;
-
-	if (get_next_line(0, &line) < 0)
+	if (get_next_line(0, &game->line) < 0)
 		return (0);
-//	ft_putendl_fd("before map1\n", game->fd_bot);
-//	ft_putendl_fd(line, game->fd_bot);
-	if (!game->lap)
+	if ((!game->line) || (!game->lap && !create_map(game)))
 	{
-		if (!create_map(game, line))
-			return (0);
+		ft_strdel(&game->line);
+		return(0);
 	}
 	else
 		ft_strcpy(game->map.old_map, game->map.new_map);
-	if (get_next_line(0, &line) < 0)
+	ft_strdel(&game->line);
+	if (get_next_line(0, &game->line) < 0)
 		return (0);
-	//ft_putendl_fd("before map2\n", game->fd_bot);
-	//ft_putendl_fd(line, game->fd_bot);
-
-	i = -1;
-	j = 0;
+	ft_strdel(&game->line);
 	while (++i < game->map.li)
 	{
-		//ft_putnbr_fd(i, game->fd_bot);
-		//ft_putendl_fd("line\n", game->fd_bot);
-		if (get_next_line(0, &line) < 0)
+		if (get_next_line(0, &game->line) < 0)
 			return (0);
-		//ft_putendl_fd("line2", game->fd_bot);
-		ft_strncpy(game->map.new_map + j, line + 4, game->map.col);
+		ft_strncpy(game->map.new_map + j, game->line + 4, game->map.col);
 		j += game->map.col;
+		ft_strdel(&game->line);
 	}
-	free(line);
 	return (1);
 }
 
 int		get_players(t_game *game)
 {
-	char *line;
-
-	if (get_next_line(0, &line) < 0)
+	game->line = NULL;
+	if (get_next_line(0, &game->line) < 0)
 		return (0);
-	game->pl.player = *(ft_strchr(line, 'p') + 1);
+	game->pl.player = *(ft_strchr(game->line, 'p') + 1);
 	if ((game->pl.player != '1') && (game->pl.player != '2'))
 		return (0);
 	game->pl.player = (game->pl.player == '1') ? 'O' : 'X';
 	game->op.opponent = (game->pl.player == 'O') ? 'X' : 'O';
-	free(line);
+	ft_strdel(&game->line);
 	return (1);
 }

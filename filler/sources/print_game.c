@@ -23,18 +23,15 @@ void	print_game(t_game *game, char *option)
 		ft_putstr_fd("   opponent: ", game->fd_bot);
 		ft_putchar_fd(game->op.opponent, game->fd_bot);
 		ft_putchar_fd('\n', game->fd_bot);
-		ft_putstr_fd("   nb opponent blocks on the map: ", game->fd_bot);
-		ft_putnbr_fd(game->op.n_blok, game->fd_bot);
-		ft_putchar_fd('\n', game->fd_bot);
 		ft_putstr_fd("   nb previous blocks: ", game->fd_bot);
-		ft_putnbr_fd(game->op.n_last_blok, game->fd_bot);
+		ft_putnbr_fd(game->op.n_last, game->fd_bot);
 		ft_putchar_fd('\n', game->fd_bot);
 		ft_putstr_fd("   last blocks: ", game->fd_bot);
 		int i = -1;
-		while (++i < game->op.n_last_blok)
+		while (++i < game->op.n_last)
 		{
-			ft_putnbr_fd(game->op.last_blok[i], game->fd_bot);
-			if (i != (game->op.n_last_blok - 1))
+			ft_putnbr_fd(game->op.last[i], game->fd_bot);
+			if (i != (game->op.n_last - 1))
 				write(game->fd_bot, ", ", 2);
 		}
 		ft_putchar_fd('\n', game->fd_bot);
