@@ -1,355 +1,4536 @@
-before map1
 
-
-lateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
-before map1
-
-Plateau 24 40:
-before map2
-
-    0123456789012345678901234567890123456789
+lap 1
+   dx: 11
+   dy: 4
+lap 1
+   dx: 12
+   dy: 4
+lap 1
+   dx: 11
+   dy: 5
+lap 1
+   dx: 11
+   dy: 3
+lap 1
+   dx: 12
+   dy: 3
+lap 1
+   dx: 11
+   dy: 4
+lap 1
+   dx: 12
+   dy: 2
+lap 1
+   dx: 13
+   dy: 2
+lap 1
+   dx: 12
+   dy: 3
+lap 1
+   dx: 12
+   dy: 1
+lap 1
+   dx: 13
+   dy: 1
+lap 1
+   dx: 12
+   dy: 2
+lap 1
+   dx: 12
+   dy: 3
+lap 1
+   dx: 13
+   dy: 3
+lap 1
+   dx: 12
+   dy: 4
+lap 1
+   dx: 12
+   dy: 2
+lap 1
+   dx: 13
+   dy: 2
+lap 1
+   dx: 12
+   dy: 3
+lap 1
+   dx: 11
+   dy: 2
+lap 1
+   dx: 12
+   dy: 2
+lap 1
+   dx: 11
+   dy: 3
+lap 1
+   dx: 11
+   dy: 1
+lap 1
+   dx: 12
+   dy: 1
+lap 1
+   dx: 11
+   dy: 2
+lap 2
+   dx: 11
+   dy: 2
+lap 2
+   dx: 10
+   dy: 2
+lap 2
+   dx: 9
+   dy: 2
+lap 2
+   dx: 12
+   dy: 2
+lap 2
+   dx: 11
+   dy: 2
+lap 2
+   dx: 10
+   dy: 2
+lap 2
+   dx: 13
+   dy: 2
+lap 2
+   dx: 12
+   dy: 2
+lap 2
+   dx: 11
+   dy: 2
+lap 2
+   dx: 11
+   dy: 1
+lap 2
+   dx: 10
+   dy: 1
+lap 2
+   dx: 9
+   dy: 1
+lap 2
+   dx: 11
+   dy: 0
+lap 2
+   dx: 10
+   dy: 0
+lap 2
+   dx: 9
+   dy: 0
+lap 2
+   dx: 12
+   dy: 0
+lap 2
+   dx: 11
+   dy: 0
+lap 2
+   dx: 10
+   dy: 0
+lap 2
+   dx: 13
+   dy: 0
+lap 2
+   dx: 12
+   dy: 0
+lap 2
+   dx: 11
+   dy: 0
+lap 3
+   dx: 8
+   dy: 3
+lap 3
+   dx: 10
+   dy: 2
+lap 3
+   dx: 9
+   dy: 2
+lap 3
+   dx: 8
+   dy: 2
+lap 3
+   dx: 9
+   dy: 3
+lap 3
+   dx: 11
+   dy: 2
+lap 3
+   dx: 10
+   dy: 2
+lap 3
+   dx: 9
+   dy: 2
+lap 3
+   dx: 10
+   dy: 3
+lap 3
+   dx: 12
+   dy: 2
+lap 3
+   dx: 11
+   dy: 2
+lap 3
+   dx: 10
+   dy: 2
+lap 3
+   dx: 8
+   dy: 2
+lap 3
+   dx: 10
+   dy: 1
+lap 3
+   dx: 9
+   dy: 1
+lap 3
+   dx: 8
+   dy: 1
+lap 3
+   dx: 10
+   dy: 0
+lap 3
+   dx: 12
+   dy: 1
+lap 3
+   dx: 11
+   dy: 1
+lap 3
+   dx: 10
+   dy: 1
+lap 3
+   dx: 9
+   dy: 0
+lap 3
+   dx: 11
+   dy: 1
+lap 3
+   dx: 10
+   dy: 1
+lap 3
+   dx: 9
+   dy: 1
+lap 3
+   dx: 8
+   dy: 0
+lap 3
+   dx: 10
+   dy: 1
+lap 3
+   dx: 9
+   dy: 1
+lap 3
+   dx: 8
+   dy: 1
+lap 3
+   dx: 6
+   dy: 1
+lap 3
+   dx: 8
+   dy: 0
+lap 3
+   dx: 7
+   dy: 0
+lap 3
+   dx: 6
+   dy: 0
+lap 4
+   dx: 9
+   dy: 3
+lap 4
+   dx: 9
+   dy: 2
+lap 4
+   dx: 10
+   dy: 1
+lap 4
+   dx: 10
+   dy: 0
+lap 4
+   dx: 10
+   dy: 2
+lap 4
+   dx: 10
+   dy: 1
+lap 4
+   dx: 5
+   dy: 2
+lap 4
+   dx: 5
+   dy: 1
+lap 4
+   dx: 9
+   dy: 0
+lap 4
+   dx: 9
+   dy: 1
+lap 4
+   dx: 8
+   dy: 0
+lap 4
+   dx: 8
+   dy: 1
+lap 4
+   dx: 8
+   dy: 1
+lap 4
+   dx: 8
+   dy: 0
+lap 4
+   dx: 7
+   dy: 0
+lap 4
+   dx: 7
+   dy: 1
+lap 4
+   dx: 7
+   dy: 1
+lap 4
+   dx: 7
+   dy: 0
+lap 4
+   dx: 6
+   dy: 0
+lap 4
+   dx: 6
+   dy: 1
+lap 4
+   dx: 6
+   dy: 1
+lap 4
+   dx: 6
+   dy: 0
+lap 4
+   dx: 5
+   dy: 0
+lap 4
+   dx: 5
+   dy: 1
+lap 5
+   dx: 8
+   dy: 2
+lap 5
+   dx: 7
+   dy: 2
+lap 5
+   dx: 9
+   dy: 2
+lap 5
+   dx: 8
+   dy: 2
+lap 5
+   dx: 10
+   dy: 1
+lap 5
+   dx: 9
+   dy: 1
+lap 5
+   dx: 8
+   dy: 1
+lap 5
+   dx: 7
+   dy: 1
+lap 5
+   dx: 4
+   dy: 1
+lap 5
+   dx: 3
+   dy: 1
+lap 5
+   dx: 5
+   dy: 1
+lap 5
+   dx: 4
+   dy: 1
+lap 5
+   dx: 9
+   dy: 0
+lap 5
+   dx: 8
+   dy: 0
+lap 5
+   dx: 4
+   dy: 0
+lap 5
+   dx: 3
+   dy: 0
+lap 5
+   dx: 4
+   dy: 1
+lap 5
+   dx: 3
+   dy: 1
+lap 5
+   dx: 5
+   dy: 1
+lap 5
+   dx: 4
+   dy: 1
+lap 6
+   dx: 7
+   dy: 1
+lap 6
+   dx: 8
+   dy: 1
+lap 6
+   dx: 6
+   dy: 1
+lap 6
+   dx: 7
+   dy: 1
+lap 6
+   dx: 8
+   dy: 1
+lap 6
+   dx: 9
+   dy: 1
+lap 6
+   dx: 7
+   dy: 1
+lap 6
+   dx: 8
+   dy: 1
+lap 6
+   dx: 9
+   dy: 0
+lap 6
+   dx: 10
+   dy: 0
+lap 6
+   dx: 8
+   dy: 0
+lap 6
+   dx: 9
+   dy: 0
+lap 6
+   dx: 7
+   dy: 0
+lap 6
+   dx: 8
+   dy: 0
+lap 6
+   dx: 6
+   dy: 0
+lap 6
+   dx: 7
+   dy: 0
+lap 6
+   dx: 3
+   dy: 0
+lap 6
+   dx: 4
+   dy: 0
+lap 6
+   dx: 2
+   dy: 0
+lap 6
+   dx: 3
+   dy: 0
+lap 6
+   dx: 4
+   dy: 0
+lap 6
+   dx: 5
+   dy: 0
+lap 6
+   dx: 3
+   dy: 0
+lap 6
+   dx: 4
+   dy: 0
+lap 6
+   dx: 8
+   dy: 1
+lap 6
+   dx: 9
+   dy: 1
+lap 6
+   dx: 7
+   dy: 1
+lap 6
+   dx: 8
+   dy: 1
+lap 6
+   dx: 2
+   dy: 1
+lap 6
+   dx: 3
+   dy: 1
+lap 6
+   dx: 1
+   dy: 1
+lap 6
+   dx: 2
+   dy: 1
+lap 6
+   dx: 3
+   dy: 2
+lap 6
+   dx: 4
+   dy: 2
+lap 6
+   dx: 2
+   dy: 2
+lap 6
+   dx: 3
+   dy: 2
+lap 6
+   dx: 4
+   dy: 2
+lap 6
+   dx: 5
+   dy: 2
+lap 6
+   dx: 3
+   dy: 2
+lap 6
+   dx: 4
+   dy: 2
+lap 7
+   dx: 6
+   dy: 1
+lap 7
+   dx: 5
+   dy: 1
+lap 7
+   dx: 7
+   dy: 1
+lap 7
+   dx: 6
+   dy: 1
+lap 7
+   dx: 8
+   dy: 0
+lap 7
+   dx: 7
+   dy: 0
+lap 7
+   dx: 6
+   dy: 0
+lap 7
+   dx: 5
+   dy: 0
+lap 7
+   dx: 3
+   dy: 0
+lap 7
+   dx: 2
+   dy: 0
+lap 7
+   dx: 7
+   dy: 1
+lap 7
+   dx: 6
+   dy: 1
+lap 7
+   dx: 1
+   dy: 1
+lap 7
+   dx: 0
+   dy: 1
+lap 7
+   dx: 2
+   dy: 2
+lap 7
+   dx: 1
+   dy: 2
+lap 7
+   dx: 3
+   dy: 2
+lap 7
+   dx: 2
+   dy: 2
+lap 8
+   dx: 6
+   dy: 1
+lap 8
+   dx: 6
+   dy: 0
+lap 8
+   dx: 5
+   dy: 0
+lap 8
+   dx: 7
+   dy: 1
+lap 8
+   dx: 7
+   dy: 0
+lap 8
+   dx: 6
+   dy: 0
+lap 8
+   dx: 8
+   dy: 0
+lap 8
+   dx: 8
+   dy: 1
+lap 8
+   dx: 7
+   dy: 1
+lap 8
+   dx: 3
+   dy: 0
+lap 8
+   dx: 3
+   dy: 1
+lap 8
+   dx: 2
+   dy: 1
+lap 8
+   dx: 6
+   dy: 2
+lap 8
+   dx: 6
+   dy: 3
+lap 8
+   dx: 5
+   dy: 3
+lap 8
+   dx: 5
+   dy: 2
+lap 8
+   dx: 5
+   dy: 3
+lap 8
+   dx: 4
+   dy: 3
+lap 8
+   dx: 4
+   dy: 2
+lap 8
+   dx: 4
+   dy: 3
+lap 8
+   dx: 3
+   dy: 3
+lap 8
+   dx: 1
+   dy: 2
+lap 8
+   dx: 1
+   dy: 3
+lap 8
+   dx: 0
+   dy: 3
+lap 8
+   dx: 0
+   dy: 2
+lap 8
+   dx: 0
+   dy: 3
+lap 8
+   dx: 1
+   dy: 3
+lap 8
+   dx: 2
+   dy: 3
+lap 8
+   dx: 2
+   dy: 4
+lap 8
+   dx: 1
+   dy: 4
+lap 9
+   dx: 4
+   dy: 0
+lap 9
+   dx: 5
+   dy: 0
+lap 9
+   dx: 3
+   dy: 0
+lap 9
+   dx: 4
+   dy: 0
+lap 9
+   dx: 2
+   dy: 0
+lap 9
+   dx: 3
+   dy: 0
+lap 9
+   dx: 5
+   dy: 0
+lap 9
+   dx: 6
+   dy: 0
+lap 9
+   dx: 4
+   dy: 0
+lap 9
+   dx: 5
+   dy: 0
+lap 9
+   dx: 3
+   dy: 0
+lap 9
+   dx: 4
+   dy: 0
+lap 9
+   dx: 6
+   dy: 0
+lap 9
+   dx: 7
+   dy: 0
+lap 9
+   dx: 5
+   dy: 0
+lap 9
+   dx: 6
+   dy: 0
+lap 9
+   dx: 4
+   dy: 0
+lap 9
+   dx: 5
+   dy: 0
+lap 9
+   dx: 4
+   dy: 1
+lap 9
+   dx: 5
+   dy: 1
+lap 9
+   dx: 3
+   dy: 1
+lap 9
+   dx: 4
+   dy: 1
+lap 9
+   dx: 2
+   dy: 1
+lap 9
+   dx: 3
+   dy: 1
+lap 9
+   dx: 2
+   dy: 1
+lap 9
+   dx: 3
+   dy: 1
+lap 9
+   dx: 1
+   dy: 1
+lap 9
+   dx: 2
+   dy: 1
+lap 9
+   dx: 0
+   dy: 1
+lap 9
+   dx: 1
+   dy: 1
+lap 9
+   dx: 6
+   dy: 2
+lap 9
+   dx: 7
+   dy: 2
+lap 9
+   dx: 5
+   dy: 2
+lap 9
+   dx: 6
+   dy: 2
+lap 9
+   dx: 4
+   dy: 2
+lap 9
+   dx: 5
+   dy: 2
+lap 9
+   dx: 1
+   dy: 3
+lap 9
+   dx: 2
+   dy: 3
+lap 9
+   dx: 0
+   dy: 3
+lap 9
+   dx: 1
+   dy: 3
+lap 9
+   dx: 1
+   dy: 3
+lap 9
+   dx: 0
+   dy: 3
+lap 9
+   dx: 2
+   dy: 3
+lap 9
+   dx: 3
+   dy: 3
+lap 9
+   dx: 1
+   dy: 3
+lap 9
+   dx: 2
+   dy: 3
+lap 9
+   dx: 0
+   dy: 3
+lap 9
+   dx: 1
+   dy: 3
+lap 9
+   dx: 3
+   dy: 3
+lap 9
+   dx: 2
+   dy: 3
+lap 9
+   dx: 4
+   dy: 3
+lap 9
+   dx: 3
+   dy: 3
+lap 9
+   dx: 5
+   dy: 3
+lap 9
+   dx: 4
+   dy: 3
+lap 10
+   dx: 3
+   dy: 1
+lap 10
+   dx: 3
+   dy: 0
+lap 10
+   dx: 4
+   dy: 1
+lap 10
+   dx: 4
+   dy: 2
+lap 10
+   dx: 4
+   dy: 0
+lap 10
+   dx: 4
+   dy: 1
+lap 10
+   dx: 1
+   dy: 0
+lap 10
+   dx: 1
+   dy: 1
+lap 10
+   dx: 3
+   dy: 2
+lap 10
+   dx: 3
+   dy: 3
+lap 10
+   dx: 2
+   dy: 2
+lap 10
+   dx: 2
+   dy: 3
+lap 10
+   dx: 2
+   dy: 1
+lap 10
+   dx: 2
+   dy: 2
+lap 10
+   dx: 1
+   dy: 2
+lap 10
+   dx: 1
+   dy: 3
+lap 10
+   dx: 0
+   dy: 2
+lap 10
+   dx: 0
+   dy: 3
+lap 10
+   dx: 2
+   dy: 2
+lap 10
+   dx: 2
+   dy: 3
+lap 10
+   dx: 1
+   dy: 3
+lap 10
+   dx: 1
+   dy: 4
+lap 10
+   dx: 3
+   dy: 3
+lap 10
+   dx: 3
+   dy: 4
+lap 10
+   dx: 4
+   dy: 3
+lap 10
+   dx: 4
+   dy: 4
+lap 10
+   dx: 4
+   dy: 2
+lap 10
+   dx: 4
+   dy: 3
+lap 11
+   dx: 7
+   dy: 3
+lap 11
+   dx: 7
+   dy: 2
+lap 11
+   dx: 5
+   dy: 3
+lap 11
+   dx: 5
+   dy: 2
+lap 11
+   dx: 8
+   dy: 1
+lap 11
+   dx: 8
+   dy: 0
+lap 11
+   dx: 8
+   dy: 2
+lap 11
+   dx: 8
+   dy: 1
+lap 11
+   dx: 7
+   dy: 0
+lap 11
+   dx: 7
+   dy: 1
+lap 11
+   dx: 6
+   dy: 0
+lap 11
+   dx: 6
+   dy: 1
+lap 11
+   dx: 6
+   dy: 1
+lap 11
+   dx: 6
+   dy: 0
+lap 11
+   dx: 5
+   dy: 0
+lap 11
+   dx: 5
+   dy: 1
+lap 11
+   dx: 4
+   dy: 0
+lap 11
+   dx: 4
+   dy: 1
+lap 11
+   dx: 2
+   dy: 0
+lap 11
+   dx: 2
+   dy: 1
+lap 11
+   dx: 3
+   dy: 1
+lap 11
+   dx: 3
+   dy: 2
+lap 11
+   dx: 1
+   dy: 1
+lap 11
+   dx: 1
+   dy: 2
+lap 11
+   dx: 0
+   dy: 1
+lap 11
+   dx: 0
+   dy: 2
+lap 12
+   dx: 7
+   dy: 0
+lap 12
+   dx: 6
+   dy: 0
+lap 12
+   dx: 8
+   dy: 0
+lap 12
+   dx: 7
+   dy: 0
+lap 12
+   dx: 6
+   dy: 0
+lap 12
+   dx: 5
+   dy: 0
+lap 12
+   dx: 9
+   dy: 1
+lap 12
+   dx: 8
+   dy: 1
+lap 12
+   dx: 7
+   dy: 1
+lap 12
+   dx: 6
+   dy: 1
+lap 12
+   dx: 6
+   dy: 1
+lap 12
+   dx: 5
+   dy: 1
+lap 12
+   dx: 8
+   dy: 2
+lap 12
+   dx: 7
+   dy: 2
+lap 12
+   dx: 3
+   dy: 3
+lap 12
+   dx: 2
+   dy: 3
+lap 12
+   dx: 4
+   dy: 3
+lap 12
+   dx: 3
+   dy: 3
+lap 12
+   dx: 2
+   dy: 3
+lap 12
+   dx: 1
+   dy: 3
+lap 12
+   dx: 0
+   dy: 3
+lap 12
+   dx: 1
+   dy: 3
+lap 12
+   dx: 0
+   dy: 4
+lap 12
+   dx: 1
+   dy: 4
+lap 12
+   dx: 1
+   dy: 4
+lap 12
+   dx: 0
+   dy: 4
+lap 13
+   dx: 9
+   dy: 0
+lap 13
+   dx: 8
+   dy: 0
+lap 13
+   dx: 7
+   dy: 0
+lap 13
+   dx: 10
+   dy: 0
+lap 13
+   dx: 9
+   dy: 0
+lap 13
+   dx: 8
+   dy: 0
+lap 13
+   dx: 10
+   dy: 2
+lap 13
+   dx: 9
+   dy: 2
+lap 13
+   dx: 8
+   dy: 2
+lap 13
+   dx: 5
+   dy: 3
+lap 13
+   dx: 4
+   dy: 3
+lap 13
+   dx: 3
+   dy: 3
+lap 13
+   dx: 6
+   dy: 3
+lap 13
+   dx: 5
+   dy: 3
+lap 13
+   dx: 4
+   dy: 3
+lap 13
+   dx: 0
+   dy: 3
+lap 13
+   dx: 1
+   dy: 3
+lap 13
+   dx: 2
+   dy: 3
+lap 13
+   dx: 1
+   dy: 4
+lap 13
+   dx: 0
+   dy: 4
+lap 13
+   dx: 1
+   dy: 4
+lap 13
+   dx: 2
+   dy: 4
+lap 13
+   dx: 1
+   dy: 4
+lap 13
+   dx: 0
+   dy: 4
+lap 13
+   dx: 3
+   dy: 4
+lap 13
+   dx: 2
+   dy: 4
+lap 13
+   dx: 1
+   dy: 4
+lap 14
+   dx: 3
+   dy: 1
+lap 14
+   dx: 2
+   dy: 1
+lap 14
+   dx: 4
+   dy: 1
+lap 14
+   dx: 3
+   dy: 1
+lap 14
+   dx: 2
+   dy: 1
+lap 14
+   dx: 1
+   dy: 1
+lap 14
+   dx: 5
+   dy: 2
+lap 14
+   dx: 4
+   dy: 2
+lap 14
+   dx: 3
+   dy: 2
+lap 14
+   dx: 2
+   dy: 2
+lap 14
+   dx: 2
+   dy: 2
+lap 14
+   dx: 1
+   dy: 2
+lap 14
+   dx: 4
+   dy: 3
+lap 14
+   dx: 3
+   dy: 3
+lap 14
+   dx: 1
+   dy: 4
+lap 14
+   dx: 2
+   dy: 4
+lap 14
+   dx: 0
+   dy: 4
+lap 14
+   dx: 1
+   dy: 4
+lap 14
+   dx: 2
+   dy: 4
+lap 14
+   dx: 3
+   dy: 4
+lap 14
+   dx: 4
+   dy: 5
+lap 14
+   dx: 5
+   dy: 5
+lap 14
+   dx: 3
+   dy: 5
+lap 14
+   dx: 4
+   dy: 5
+lap 15
+   dx: 3
+   dy: 1
+lap 15
+   dx: 2
+   dy: 1
+lap 15
+   dx: 4
+   dy: 2
+lap 15
+   dx: 3
+   dy: 2
+lap 15
+   dx: 2
+   dy: 2
+lap 15
+   dx: 1
+   dy: 2
+lap 15
+   dx: 1
+   dy: 2
+lap 15
+   dx: 0
+   dy: 2
+lap 15
+   dx: 3
+   dy: 3
+lap 15
+   dx: 2
+   dy: 3
+lap 15
+   dx: 2
+   dy: 4
+lap 15
+   dx: 3
+   dy: 4
+lap 15
+   dx: 1
+   dy: 4
+lap 15
+   dx: 2
+   dy: 4
+lap 15
+   dx: 3
+   dy: 4
+lap 15
+   dx: 4
+   dy: 4
+lap 15
+   dx: 5
+   dy: 5
+lap 15
+   dx: 6
+   dy: 5
+lap 15
+   dx: 4
+   dy: 5
+lap 15
+   dx: 5
+   dy: 5
+lap 16
+   dx: 2
+   dy: 1
+lap 16
+   dx: 3
+   dy: 1
+lap 16
+   dx: 2
+   dy: 0
+lap 16
+   dx: 1
+   dy: 1
+lap 16
+   dx: 2
+   dy: 1
+lap 16
+   dx: 1
+   dy: 0
+lap 16
+   dx: 2
+   dy: 2
+lap 16
+   dx: 3
+   dy: 2
+lap 16
+   dx: 2
+   dy: 1
+lap 16
+   dx: 1
+   dy: 2
+lap 16
+   dx: 2
+   dy: 2
+lap 16
+   dx: 1
+   dy: 1
+lap 16
+   dx: 3
+   dy: 3
+lap 16
+   dx: 4
+   dy: 3
+lap 16
+   dx: 3
+   dy: 2
+lap 16
+   dx: 2
+   dy: 3
+lap 16
+   dx: 3
+   dy: 3
+lap 16
+   dx: 2
+   dy: 2
+lap 16
+   dx: 3
+   dy: 4
+lap 16
+   dx: 4
+   dy: 4
+lap 16
+   dx: 3
+   dy: 3
+lap 16
+   dx: 2
+   dy: 4
+lap 16
+   dx: 3
+   dy: 4
+lap 16
+   dx: 2
+   dy: 3
+lap 16
+   dx: 3
+   dy: 2
+lap 16
+   dx: 4
+   dy: 2
+lap 16
+   dx: 3
+   dy: 1
+lap 16
+   dx: 2
+   dy: 2
+lap 16
+   dx: 3
+   dy: 2
+lap 16
+   dx: 2
+   dy: 1
+lap 16
+   dx: 3
+   dy: 3
+lap 16
+   dx: 4
+   dy: 3
+lap 16
+   dx: 3
+   dy: 2
+lap 16
+   dx: 2
+   dy: 3
+lap 16
+   dx: 3
+   dy: 3
+lap 16
+   dx: 2
+   dy: 2
+lap 16
+   dx: 2
+   dy: 4
+lap 16
+   dx: 3
+   dy: 4
+lap 16
+   dx: 2
+   dy: 3
+lap 16
+   dx: 1
+   dy: 4
+lap 16
+   dx: 2
+   dy: 4
+lap 16
+   dx: 1
+   dy: 3
+lap 16
+   dx: 2
+   dy: 5
+lap 16
+   dx: 3
+   dy: 5
+lap 16
+   dx: 2
+   dy: 4
+lap 16
+   dx: 1
+   dy: 5
+lap 16
+   dx: 2
+   dy: 5
+lap 16
+   dx: 1
+   dy: 4
+lap 16
+   dx: 3
+   dy: 5
+lap 16
+   dx: 2
+   dy: 5
+lap 16
+   dx: 3
+   dy: 4
+lap 16
+   dx: 4
+   dy: 5
+lap 16
+   dx: 3
+   dy: 5
+lap 16
+   dx: 4
+   dy: 4
+lap 16
+   dx: 3
+   dy: 6
+lap 16
+   dx: 2
+   dy: 6
+lap 16
+   dx: 3
+   dy: 5
+lap 16
+   dx: 4
+   dy: 6
+lap 16
+   dx: 3
+   dy: 6
+lap 16
+   dx: 4
+   dy: 5
+lap 16
+   dx: 2
+   dy: 5
+lap 16
+   dx: 1
+   dy: 5
+lap 16
+   dx: 2
+   dy: 4
+lap 16
+   dx: 3
+   dy: 5
+lap 16
+   dx: 2
+   dy: 5
+lap 16
+   dx: 3
+   dy: 4
+lap 16
+   dx: 2
+   dy: 6
+lap 16
+   dx: 1
+   dy: 6
+lap 16
+   dx: 2
+   dy: 5
+lap 16
+   dx: 3
+   dy: 6
+lap 16
+   dx: 2
+   dy: 6
+lap 16
+   dx: 3
+   dy: 5
+lap 16
+   dx: 4
+   dy: 5
+lap 16
+   dx: 3
+   dy: 5
+lap 16
+   dx: 4
+   dy: 4
+lap 16
+   dx: 5
+   dy: 5
+lap 16
+   dx: 4
+   dy: 5
+lap 16
+   dx: 5
+   dy: 4
+lap 16
+   dx: 4
+   dy: 6
+lap 16
+   dx: 3
+   dy: 6
+lap 16
+   dx: 4
+   dy: 5
+lap 16
+   dx: 5
+   dy: 6
+lap 16
+   dx: 4
+   dy: 6
+lap 16
+   dx: 5
+   dy: 5
+lap 16
+   dx: 6
+   dy: 6
+lap 16
+   dx: 5
+   dy: 6
+lap 16
+   dx: 6
+   dy: 5
+lap 16
+   dx: 7
+   dy: 6
+lap 16
+   dx: 6
+   dy: 6
+lap 16
+   dx: 7
+   dy: 5
+lap 16
+   dx: 6
+   dy: 7
+lap 16
+   dx: 5
+   dy: 7
+lap 16
+   dx: 6
+   dy: 6
+lap 16
+   dx: 7
+   dy: 7
+lap 16
+   dx: 6
+   dy: 7
+lap 16
+   dx: 7
+   dy: 6
+lap 16
+   dx: 5
+   dy: 6
+lap 16
+   dx: 4
+   dy: 6
+lap 16
+   dx: 5
+   dy: 5
+lap 16
+   dx: 6
+   dy: 6
+lap 16
+   dx: 5
+   dy: 6
+lap 16
+   dx: 6
+   dy: 5
+lap 16
+   dx: 5
+   dy: 7
+lap 16
+   dx: 4
+   dy: 7
+lap 16
+   dx: 5
+   dy: 6
+lap 16
+   dx: 6
+   dy: 7
+lap 16
+   dx: 5
+   dy: 7
+lap 16
+   dx: 6
+   dy: 6
+lap 17
+   dx: 1
+   dy: 4
+lap 17
+   dx: 2
+   dy: 4
+lap 17
+   dx: 0
+   dy: 4
+lap 17
+   dx: 1
+   dy: 4
+lap 17
+   dx: 1
+   dy: 4
+lap 17
+   dx: 0
+   dy: 4
+lap 17
+   dx: 1
+   dy: 5
+lap 17
+   dx: 2
+   dy: 5
+lap 17
+   dx: 0
+   dy: 5
+lap 17
+   dx: 1
+   dy: 5
+lap 17
+   dx: 1
+   dy: 5
+lap 17
+   dx: 0
+   dy: 5
+lap 17
+   dx: 4
+   dy: 5
+lap 17
+   dx: 3
+   dy: 5
+lap 17
+   dx: 5
+   dy: 5
+lap 17
+   dx: 4
+   dy: 5
+lap 17
+   dx: 6
+   dy: 5
+lap 17
+   dx: 5
+   dy: 5
+lap 17
+   dx: 4
+   dy: 6
+lap 17
+   dx: 3
+   dy: 6
+lap 17
+   dx: 5
+   dy: 6
+lap 17
+   dx: 4
+   dy: 6
+lap 17
+   dx: 6
+   dy: 6
+lap 17
+   dx: 5
+   dy: 6
+lap 17
+   dx: 3
+   dy: 5
+lap 17
+   dx: 2
+   dy: 5
+lap 17
+   dx: 4
+   dy: 5
+lap 17
+   dx: 3
+   dy: 5
+lap 17
+   dx: 5
+   dy: 5
+lap 17
+   dx: 4
+   dy: 5
+lap 17
+   dx: 3
+   dy: 6
+lap 17
+   dx: 2
+   dy: 6
+lap 17
+   dx: 4
+   dy: 6
+lap 17
+   dx: 3
+   dy: 6
+lap 17
+   dx: 5
+   dy: 6
+lap 17
+   dx: 4
+   dy: 6
+lap 17
+   dx: 8
+   dy: 6
+lap 17
+   dx: 7
+   dy: 6
+lap 17
+   dx: 9
+   dy: 6
+lap 17
+   dx: 8
+   dy: 6
+lap 17
+   dx: 10
+   dy: 6
+lap 17
+   dx: 9
+   dy: 6
+lap 17
+   dx: 8
+   dy: 7
+lap 17
+   dx: 7
+   dy: 7
+lap 17
+   dx: 9
+   dy: 7
+lap 17
+   dx: 8
+   dy: 7
+lap 17
+   dx: 10
+   dy: 7
+lap 17
+   dx: 9
+   dy: 7
+lap 17
+   dx: 7
+   dy: 6
+lap 17
+   dx: 6
+   dy: 6
+lap 17
+   dx: 8
+   dy: 6
+lap 17
+   dx: 7
+   dy: 6
+lap 17
+   dx: 9
+   dy: 6
+lap 17
+   dx: 8
+   dy: 6
+lap 17
+   dx: 7
+   dy: 7
+lap 17
+   dx: 6
+   dy: 7
+lap 17
+   dx: 8
+   dy: 7
+lap 17
+   dx: 7
+   dy: 7
+lap 17
+   dx: 9
+   dy: 7
+lap 17
+   dx: 8
+   dy: 7
+lap 17
+   dx: 6
+   dy: 6
+lap 17
+   dx: 5
+   dy: 6
+lap 17
+   dx: 7
+   dy: 6
+lap 17
+   dx: 6
+   dy: 6
+lap 17
+   dx: 8
+   dy: 6
+lap 17
+   dx: 7
+   dy: 6
+lap 17
+   dx: 6
+   dy: 7
+lap 17
+   dx: 5
+   dy: 7
+lap 17
+   dx: 7
+   dy: 7
+lap 17
+   dx: 6
+   dy: 7
+lap 17
+   dx: 8
+   dy: 7
+lap 17
+   dx: 7
+   dy: 7
+lap 18
+   dx: 4
+   dy: 4
+lap 18
+   dx: 3
+   dy: 5
+lap 18
+   dx: 4
+   dy: 5
+lap 18
+   dx: 5
+   dy: 4
+lap 18
+   dx: 4
+   dy: 5
+lap 18
+   dx: 5
+   dy: 5
+lap 18
+   dx: 1
+   dy: 5
+lap 18
+   dx: 0
+   dy: 6
+lap 18
+   dx: 1
+   dy: 6
+lap 18
+   dx: 2
+   dy: 5
+lap 18
+   dx: 1
+   dy: 6
+lap 18
+   dx: 2
+   dy: 6
+lap 18
+   dx: 6
+   dy: 5
+lap 18
+   dx: 5
+   dy: 6
+lap 18
+   dx: 6
+   dy: 6
+lap 18
+   dx: 8
+   dy: 5
+lap 18
+   dx: 7
+   dy: 6
+lap 18
+   dx: 8
+   dy: 6
+lap 18
+   dx: 11
+   dy: 5
+lap 18
+   dx: 10
+   dy: 6
+lap 18
+   dx: 11
+   dy: 6
+lap 18
+   dx: 12
+   dy: 5
+lap 18
+   dx: 11
+   dy: 6
+lap 18
+   dx: 12
+   dy: 6
+lap 18
+   dx: 9
+   dy: 6
+lap 18
+   dx: 8
+   dy: 7
+lap 18
+   dx: 9
+   dy: 7
+lap 19
+   dx: 0
+   dy: 1
+lap 19
+   dx: 1
+   dy: 1
+lap 19
+   dx: 0
+   dy: 2
+lap 19
+   dx: 1
+   dy: 2
+lap 19
+   dx: 2
+   dy: 4
+lap 19
+   dx: 3
+   dy: 4
+lap 19
+   dx: 6
+   dy: 4
+lap 19
+   dx: 7
+   dy: 4
+lap 19
+   dx: 5
+   dy: 4
+lap 19
+   dx: 6
+   dy: 4
+lap 19
+   dx: 7
+   dy: 4
+lap 19
+   dx: 8
+   dy: 4
+lap 19
+   dx: 1
+   dy: 5
+lap 19
+   dx: 2
+   dy: 5
+lap 19
+   dx: 9
+   dy: 5
+lap 19
+   dx: 10
+   dy: 5
+lap 19
+   dx: 8
+   dy: 5
+lap 19
+   dx: 9
+   dy: 5
+lap 20
+   dx: 5
+   dy: 5
+lap 20
+   dx: 3
+   dy: 6
+lap 20
+   dx: 4
+   dy: 6
+lap 20
+   dx: 5
+   dy: 6
+lap 20
+   dx: 6
+   dy: 6
+lap 20
+   dx: 4
+   dy: 7
+lap 20
+   dx: 5
+   dy: 7
+lap 20
+   dx: 6
+   dy: 7
+lap 20
+   dx: 8
+   dy: 6
+lap 20
+   dx: 6
+   dy: 7
+lap 20
+   dx: 7
+   dy: 7
+lap 20
+   dx: 8
+   dy: 7
+lap 20
+   dx: 12
+   dy: 6
+lap 20
+   dx: 10
+   dy: 7
+lap 20
+   dx: 11
+   dy: 7
+lap 20
+   dx: 12
+   dy: 7
+lap 20
+   dx: 3
+   dy: 6
+lap 20
+   dx: 1
+   dy: 7
+lap 20
+   dx: 2
+   dy: 7
+lap 20
+   dx: 3
+   dy: 7
+lap 20
+   dx: 9
+   dy: 7
+lap 20
+   dx: 7
+   dy: 8
+lap 20
+   dx: 8
+   dy: 8
+lap 20
+   dx: 9
+   dy: 8
+lap 21
+   dx: 11
+   dy: 3
+lap 21
+   dx: 12
+   dy: 3
+lap 21
+   dx: 10
+   dy: 3
+lap 21
+   dx: 11
+   dy: 3
+lap 21
+   dx: 8
+   dy: 1
+lap 21
+   dx: 9
+   dy: 1
+lap 21
+   dx: 7
+   dy: 1
+lap 21
+   dx: 8
+   dy: 1
+lap 21
+   dx: 5
+   dy: 1
+lap 21
+   dx: 6
+   dy: 1
+lap 21
+   dx: 4
+   dy: 1
+lap 21
+   dx: 5
+   dy: 1
+lap 21
+   dx: 6
+   dy: 1
+lap 21
+   dx: 7
+   dy: 1
+lap 21
+   dx: 5
+   dy: 1
+lap 21
+   dx: 6
+   dy: 1
+lap 21
+   dx: 4
+   dy: 1
+lap 21
+   dx: 5
+   dy: 1
+lap 21
+   dx: 3
+   dy: 1
+lap 21
+   dx: 4
+   dy: 1
+lap 21
+   dx: 8
+   dy: 0
+lap 21
+   dx: 9
+   dy: 0
+lap 21
+   dx: 7
+   dy: 0
+lap 21
+   dx: 8
+   dy: 0
+lap 21
+   dx: 2
+   dy: 0
+lap 21
+   dx: 3
+   dy: 0
+lap 21
+   dx: 1
+   dy: 0
+lap 21
+   dx: 2
+   dy: 0
+lap 21
+   dx: 3
+   dy: 0
+lap 21
+   dx: 4
+   dy: 0
+lap 21
+   dx: 2
+   dy: 0
+lap 21
+   dx: 3
+   dy: 0
+lap 22
+   dx: 8
+   dy: 2
+lap 22
+   dx: 7
+   dy: 2
+lap 22
+   dx: 6
+   dy: 2
+lap 22
+   dx: 6
+   dy: 2
+lap 22
+   dx: 5
+   dy: 2
+lap 22
+   dx: 4
+   dy: 2
+lap 22
+   dx: 7
+   dy: 2
+lap 22
+   dx: 6
+   dy: 2
+lap 22
+   dx: 5
+   dy: 2
+lap 22
+   dx: 8
+   dy: 1
+lap 22
+   dx: 7
+   dy: 1
+lap 22
+   dx: 6
+   dy: 1
+lap 22
+   dx: 4
+   dy: 1
+lap 22
+   dx: 3
+   dy: 1
+lap 22
+   dx: 2
+   dy: 1
+lap 23
+   dx: 10
+   dy: 4
+lap 23
+   dx: 9
+   dy: 4
+lap 23
+   dx: 7
+   dy: 2
+lap 23
+   dx: 6
+   dy: 2
+lap 23
+   dx: 4
+   dy: 2
+lap 23
+   dx: 3
+   dy: 2
+lap 23
+   dx: 5
+   dy: 2
+lap 23
+   dx: 4
+   dy: 2
+lap 23
+   dx: 3
+   dy: 2
+lap 23
+   dx: 2
+   dy: 2
+lap 23
+   dx: 7
+   dy: 1
+lap 23
+   dx: 6
+   dy: 1
+lap 23
+   dx: 4
+   dy: 1
+lap 23
+   dx: 3
+   dy: 1
+lap 24
+   dx: 8
+   dy: 4
+lap 24
+   dx: 9
+   dy: 4
+lap 24
+   dx: 7
+   dy: 4
+lap 24
+   dx: 8
+   dy: 4
+lap 24
+   dx: 5
+   dy: 2
+lap 24
+   dx: 6
+   dy: 2
+lap 24
+   dx: 4
+   dy: 2
+lap 24
+   dx: 5
+   dy: 2
+lap 24
+   dx: 3
+   dy: 2
+lap 24
+   dx: 4
+   dy: 2
+lap 24
+   dx: 2
+   dy: 2
+lap 24
+   dx: 3
+   dy: 2
+lap 24
+   dx: 5
+   dy: 1
+lap 24
+   dx: 6
+   dy: 1
+lap 24
+   dx: 4
+   dy: 1
+lap 24
+   dx: 5
+   dy: 1
+lap 24
+   dx: 2
+   dy: 1
+lap 24
+   dx: 3
+   dy: 1
+lap 24
+   dx: 1
+   dy: 1
+lap 24
+   dx: 2
+   dy: 1
+lap 25
+   dx: 4
+   dy: 2
+lap 25
+   dx: 3
+   dy: 2
+lap 25
+   dx: 2
+   dy: 2
+lap 25
+   dx: 3
+   dy: 2
+lap 25
+   dx: 2
+   dy: 2
+lap 25
+   dx: 1
+   dy: 2
+lap 25
+   dx: 4
+   dy: 1
+lap 25
+   dx: 3
+   dy: 1
+lap 25
+   dx: 2
+   dy: 1
+lap 25
+   dx: 3
+   dy: 1
+lap 25
+   dx: 2
+   dy: 1
+lap 25
+   dx: 1
+   dy: 1
+lap 26
+   dx: 6
+   dy: 5
+lap 26
+   dx: 6
+   dy: 6
+lap 26
+   dx: 7
+   dy: 6
+lap 26
+   dx: 6
+   dy: 4
+lap 26
+   dx: 6
+   dy: 5
+lap 26
+   dx: 7
+   dy: 5
+lap 26
+   dx: 6
+   dy: 4
+lap 26
+   dx: 6
+   dy: 5
+lap 26
+   dx: 7
+   dy: 5
+lap 26
+   dx: 6
+   dy: 3
+lap 26
+   dx: 6
+   dy: 4
+lap 26
+   dx: 7
+   dy: 4
+lap 26
+   dx: 2
+   dy: 3
+lap 26
+   dx: 2
+   dy: 4
+lap 26
+   dx: 3
+   dy: 4
+lap 26
+   dx: 2
+   dy: 2
+lap 26
+   dx: 2
+   dy: 3
+lap 26
+   dx: 3
+   dy: 3
+lap 26
+   dx: 1
+   dy: 3
+lap 26
+   dx: 1
+   dy: 4
+lap 26
+   dx: 2
+   dy: 4
+lap 26
+   dx: 1
+   dy: 2
+lap 26
+   dx: 1
+   dy: 3
+lap 26
+   dx: 2
+   dy: 3
+lap 26
+   dx: 6
+   dy: 1
+lap 26
+   dx: 6
+   dy: 2
+lap 26
+   dx: 7
+   dy: 2
+lap 26
+   dx: 6
+   dy: 0
+lap 26
+   dx: 6
+   dy: 1
+lap 26
+   dx: 7
+   dy: 1
+lap 26
+   dx: 5
+   dy: 1
+lap 26
+   dx: 5
+   dy: 2
+lap 26
+   dx: 6
+   dy: 2
+lap 26
+   dx: 5
+   dy: 0
+lap 26
+   dx: 5
+   dy: 1
+lap 26
+   dx: 6
+   dy: 1
+lap 26
+   dx: 4
+   dy: 1
+lap 26
+   dx: 4
+   dy: 2
+lap 26
+   dx: 5
+   dy: 2
+lap 26
+   dx: 4
+   dy: 0
+lap 26
+   dx: 4
+   dy: 1
+lap 26
+   dx: 5
+   dy: 1
+lap 26
+   dx: 3
+   dy: 1
+lap 26
+   dx: 3
+   dy: 2
+lap 26
+   dx: 4
+   dy: 2
+lap 26
+   dx: 3
+   dy: 0
+lap 26
+   dx: 3
+   dy: 1
+lap 26
+   dx: 4
+   dy: 1
+lap 26
+   dx: 2
+   dy: 1
+lap 26
+   dx: 2
+   dy: 2
+lap 26
+   dx: 3
+   dy: 2
+lap 26
+   dx: 2
+   dy: 0
+lap 26
+   dx: 2
+   dy: 1
+lap 26
+   dx: 3
+   dy: 1
+lap 26
+   dx: 2
+   dy: 2
+lap 26
+   dx: 2
+   dy: 3
+lap 26
+   dx: 3
+   dy: 3
+lap 26
+   dx: 2
+   dy: 1
+lap 26
+   dx: 2
+   dy: 2
+lap 26
+   dx: 3
+   dy: 2
+lap 26
+   dx: 1
+   dy: 1
+lap 26
+   dx: 1
+   dy: 2
+lap 26
+   dx: 2
+   dy: 2
+lap 26
+   dx: 1
+   dy: 0
+lap 26
+   dx: 1
+   dy: 1
+lap 26
+   dx: 2
+   dy: 1
+lap 26
+   dx: 1
+   dy: 2
+lap 26
+   dx: 1
+   dy: 3
+lap 26
+   dx: 2
+   dy: 3
+lap 26
+   dx: 1
+   dy: 1
+lap 26
+   dx: 1
+   dy: 2
+lap 26
+   dx: 2
+   dy: 2
+lap 27
+   dx: 5
+   dy: 3
+lap 27
+   dx: 6
+   dy: 3
+lap 27
+   dx: 6
+   dy: 2
+lap 27
+   dx: 4
+   dy: 3
+lap 27
+   dx: 5
+   dy: 3
+lap 27
+   dx: 5
+   dy: 2
+lap 27
+   dx: 2
+   dy: 5
+lap 27
+   dx: 3
+   dy: 5
+lap 27
+   dx: 3
+   dy: 4
+lap 27
+   dx: 1
+   dy: 5
+lap 27
+   dx: 2
+   dy: 5
+lap 27
+   dx: 2
+   dy: 4
+lap 27
+   dx: 0
+   dy: 5
+lap 27
+   dx: 1
+   dy: 5
+lap 27
+   dx: 1
+   dy: 4
+lap 27
+   dx: 1
+   dy: 5
+lap 27
+   dx: 0
+   dy: 5
+lap 27
+   dx: 0
+   dy: 4
+lap 27
+   dx: 1
+   dy: 7
+lap 27
+   dx: 2
+   dy: 7
+lap 27
+   dx: 2
+   dy: 6
+lap 27
+   dx: 0
+   dy: 7
+lap 27
+   dx: 1
+   dy: 7
+lap 27
+   dx: 1
+   dy: 6
+lap 28
+   dx: 1
+   dy: 4
+lap 28
+   dx: 0
+   dy: 4
+lap 28
+   dx: 2
+   dy: 6
+lap 28
+   dx: 3
+   dy: 6
+lap 28
+   dx: 3
+   dy: 6
+lap 28
+   dx: 4
+   dy: 6
+lap 28
+   dx: 3
+   dy: 8
+lap 28
+   dx: 4
+   dy: 8
+lap 29
+   dx: 2
+   dy: 5
+lap 29
+   dx: 2
+   dy: 6
+lap 29
+   dx: 2
+   dy: 7
+lap 29
+   dx: 2
+   dy: 8
+lap 29
+   dx: 1
+   dy: 7
+lap 29
+   dx: 1
+   dy: 8
+lap 29
+   dx: 0
+   dy: 7
+lap 29
+   dx: 0
+   dy: 8
+lap 29
+   dx: 1
+   dy: 7
+lap 29
+   dx: 1
+   dy: 8
+lap 29
+   dx: 2
+   dy: 7
+lap 29
+   dx: 2
+   dy: 8
+lap 29
+   dx: 2
+   dy: 6
+lap 29
+   dx: 2
+   dy: 7
+lap 29
+   dx: 3
+   dy: 8
+lap 29
+   dx: 3
+   dy: 9
+   dy: 1
+   dx: 6
+   dy: 0
+   dx: 6
+   dy: 1
+   dx: 7
+   dy: 1
+   dx: 6
+   dy: 0
+   dx: 5
+   dy: 1
+   dx: 6
+   dy: 1
+   dx: 5
+   dy: 0
+   dx: 6
+   dy: 2
+   dx: 7
+   dy: 2
+   dx: 6
+   dy: 1
+   dx: 4
+   dy: 0
+   dx: 5
+   dy: 0
+   dx: 4
+   dy: 1
+   dx: 3
+   dy: 0
+   dx: 4
+   dy: 0
+   dx: 3
+   dy: 1
+   dx: 4
+   dy: 1
+   dx: 5
+   dy: 1
+   dx: 4
+   dy: 0
+   dx: 3
+   dy: 0
+   dx: 4
+   dy: 0
+   dx: 3
+   dy: 1
+   dx: 2
+   dy: 0
+   dx: 3
+   dy: 0
+   dx: 2
+   dy: 1
+   dx: 3
+   dy: 1
+   dx: 4
+   dy: 1
+   dx: 3
+   dy: 0
+   dx: 2
+   dy: 0
+   dx: 3
+   dy: 0
+   dx: 2
+   dy: 1
+   dx: 1
+   dy: 0
+   dx: 2
+   dy: 0
+   dx: 1
+   dy: 1
+   dx: 2
+   dy: 1
+   dx: 3
+   dy: 1
+   dx: 2
+   dy: 0
+   dx: 8
+   dy: 3
+   dx: 9
+   dy: 3
+   dx: 8
+   dy: 2
+   dx: 7
+   dy: 3
+   dx: 8
+   dy: 3
+   dx: 7
+   dy: 2
+   dx: 8
+   dy: 4
+   dx: 9
+   dy: 4
+   dx: 8
+   dy: 3
+   dx: 9
+   dy: 6
+   dx: 10
+   dy: 6
+   dx: 9
+   dy: 5
+   dx: 8
+   dy: 6
+   dx: 9
+   dy: 6
+   dx: 8
+   dy: 5
+   dx: 9
+   dy: 7
+   dx: 10
+   dy: 7
+   dx: 9
+   dy: 6
+   dx: 8
+   dy: 7
+   dx: 9
+   dy: 7
+   dx: 8
+   dy: 6
+   dx: 7
+   dy: 7
+   dx: 8
+   dy: 7
+   dx: 7
+   dy: 6
+   dx: 8
+   dy: 8
+   dx: 9
+   dy: 8
+   dx: 8
+   dy: 7
+   dx: 8
+   dy: 8
+   dx: 9
+   dy: 8
+   dx: 8
+   dy: 7
+   dx: 7
+   dy: 8
+   dx: 8
+   dy: 8
+   dx: 7
+   dy: 7
+   dx: 8
+   dy: 9
+   dx: 9
+   dy: 9
+   dx: 8
+   dy: 8
+   dx: 7
+   dy: 9
+   dx: 8
+   dy: 9
+   dx: 7
+   dy: 8
+   dx: 6
+   dy: 9
+   dx: 7
+   dy: 9
+   dx: 6
+   dy: 8
+   dx: 7
+   dy: 10
+   dx: 8
+   dy: 10
+   dx: 7
+   dy: 9
+   dx: 6
+   dy: 10
+   dx: 7
+   dy: 10
+   dx: 6
+   dy: 9
+   dx: 5
+   dy: 10
+   dx: 6
+   dy: 10
+   dx: 5
+   dy: 9
+   dx: 6
+   dy: 11
+   dx: 7
+   dy: 11
+   dx: 6
+   dy: 10
+   dx: 4
+   dy: 11
+   dx: 5
+   dy: 11
+   dx: 4
+   dy: 10
+   dx: 3
+   dy: 11
+   dx: 4
+   dy: 11
+   dx: 3
+   dy: 10
+   dx: 4
+   dy: 12
+   dx: 5
+   dy: 12
+   dx: 4
+   dy: 11
+   dx: 4
+   dy: 12
+   dx: 5
+   dy: 12
+   dx: 4
+   dy: 11
+   dx: 3
+   dy: 12
+   dx: 4
+   dy: 12
+   dx: 3
+   dy: 11
+   dx: 4
+   dy: 13
+   dx: 5
+   dy: 13
+   dx: 4
+   dy: 12
+   dx: 3
+   dy: 13
+   dx: 4
+   dy: 13
+   dx: 3
+   dy: 12
+   dx: 2
+   dy: 13
+   dx: 3
+   dy: 13
+   dx: 2
+   dy: 12
+   dx: 3
+   dy: 14
+   dx: 4
+   dy: 14
+   dx: 3
+   dy: 13
+   dx: 4
+   dy: 2
+   dx: 4
+   dy: 3
+   dx: 4
+   dy: 4
+   dx: 4
+   dy: 1
+   dx: 4
+   dy: 2
+   dx: 4
+   dy: 3
+   dx: 3
+   dy: 2
+   dx: 3
+   dy: 3
+   dx: 3
+   dy: 4
+   dx: 3
+   dy: 1
+   dx: 3
+   dy: 2
+   dx: 3
+   dy: 3
+   dx: 6
+   dy: 0
+   dx: 6
+   dy: 1
+   dx: 6
+   dy: 2
+   dx: 6
+   dy: 1
+   dx: 6
+   dy: 0
+   dx: 6
+   dy: 1
+   dx: 8
+   dy: 1
+   dx: 8
+   dy: 0
+   dx: 8
+   dy: 1
+   dx: 8
+   dy: 2
+   dx: 8
+   dy: 1
+   dx: 8
+   dy: 0
+   dx: 7
+   dy: 1
+   dx: 7
+   dy: 0
+   dx: 7
+   dy: 1
+   dx: 7
+   dy: 2
+   dx: 7
+   dy: 1
+   dx: 7
+   dy: 0
+   dx: 9
+   dy: 3
+   dx: 9
+   dy: 2
+   dx: 9
+   dy: 1
+   dx: 9
+   dy: 4
+   dx: 9
+   dy: 3
+   dx: 9
+   dy: 2
+   dx: 9
+   dy: 2
+   dx: 9
+   dy: 1
+   dx: 9
+   dy: 0
+   dx: 9
+   dy: 3
+   dx: 9
+   dy: 2
+   dx: 9
+   dy: 1
+   dx: 8
+   dy: 4
+   dx: 8
+   dy: 3
+   dx: 8
+   dy: 2
+   dx: 8
+   dy: 5
+   dx: 8
+   dy: 4
+   dx: 8
+   dy: 3
+   dx: 7
+   dy: 6
+   dx: 7
+   dy: 5
+   dx: 7
+   dy: 4
+   dx: 7
+   dy: 7
+   dx: 7
+   dy: 6
+   dx: 7
+   dy: 5
+   dx: 6
+   dy: 7
+   dx: 6
+   dy: 6
+   dx: 6
+   dy: 5
+   dx: 6
+   dy: 8
+   dx: 6
+   dy: 7
+   dx: 6
+   dy: 6
+   dx: 5
+   dy: 8
+   dx: 5
+   dy: 7
+   dx: 5
+   dy: 6
+   dx: 5
+   dy: 9
+   dx: 5
+   dy: 8
+   dx: 5
+   dy: 7
+   dx: 4
+   dy: 8
+   dx: 4
+   dy: 7
+   dx: 4
+   dy: 6
+   dx: 4
+   dy: 9
+   dx: 4
+   dy: 8
+   dx: 4
+   dy: 7
+   dx: 3
+   dy: 10
+   dx: 3
+   dy: 9
+   dx: 3
+   dy: 8
+   dx: 3
+   dy: 11
+   dx: 3
+   dy: 10
+   dx: 3
+   dy: 9
+   dx: 2
+   dy: 11
+   dx: 2
+   dy: 10
+   dx: 2
+   dy: 9
+   dx: 2
+   dy: 12
+   dx: 2
+   dy: 11
+   dx: 2
+   dy: 10
+   dx: 1
+   dy: 11
+   dx: 1
+   dy: 10
+   dx: 1
+   dy: 9
+   dx: 1
+   dy: 12
+   dx: 1
+   dy: 11
+   dx: 1
+   dy: 10
+   dx: 7
+   dy: 1
+   dx: 6
+   dy: 1
+   dx: 8
+   dy: 0
+   dx: 7
+   dy: 0
+   dx: 7
+   dy: 0
+   dx: 6
+   dy: 0
+   dx: 8
+   dy: 1
+   dx: 7
+   dy: 1
+   dx: 9
+   dy: 2
+   dx: 8
+   dy: 2
+   dx: 10
+   dy: 3
+   dx: 9
+   dy: 3
+   dx: 9
+   dy: 6
+   dx: 8
+   dy: 6
+   dx: 10
+   dy: 7
+   dx: 9
+   dy: 7
+   dx: 9
+   dy: 7
+   dx: 8
+   dy: 7
+   dx: 10
+   dy: 8
+   dx: 9
+   dy: 8
+   dx: 8
+   dy: 8
+   dx: 7
+   dy: 8
+   dx: 9
+   dy: 9
+   dx: 8
+   dy: 9
+   dx: 7
+   dy: 9
+   dx: 6
+   dy: 9
+   dx: 8
+   dy: 10
+   dx: 7
+   dy: 10
+   dx: 5
+   dy: 10
+   dx: 4
+   dy: 10
+   dx: 6
+   dy: 11
+   dx: 5
+   dy: 11
+   dx: 5
+   dy: 11
+   dx: 4
+   dy: 11
+   dx: 6
+   dy: 12
+   dx: 5
+   dy: 12
+   dx: 4
+   dy: 12
+   dx: 3
+   dy: 12
+   dx: 5
+   dy: 13
+   dx: 4
+   dy: 13
+   dx: 7
+   dy: 13
+   dx: 8
+   dy: 13
+   dx: 7
+   dy: 12
+   dx: 8
+   dy: 12
+   dx: 7
+   dy: 14
+   dx: 8
+   dy: 14
+   dx: 7
+   dy: 13
+   dx: 8
+   dy: 13
+   dx: 6
+   dy: 13
+   dx: 7
+   dy: 13
+   dx: 6
+   dy: 12
+   dx: 7
+   dy: 12
+   dx: 4
+   dy: 14
+   dx: 5
+   dy: 14
+   dx: 4
+   dy: 13
+   dx: 5
+   dy: 13
+   dx: 6
+   dy: 12
+   dx: 7
+   dy: 12
+   dx: 6
+   dy: 11
+   dx: 7
+   dy: 11
+   dx: 8
+   dy: 11
+   dx: 9
+   dy: 11
+   dx: 8
+   dy: 10
+   dx: 9
+   dy: 10
+   dx: 7
+   dy: 11
+   dx: 8
+   dy: 11
+   dx: 7
+   dy: 10
+   dx: 8
+   dy: 10
+   dx: 9
+   dy: 9
+   dx: 10
+   dy: 9
+   dx: 9
+   dy: 8
+   dx: 10
+   dy: 8
+   dx: 9
+   dy: 10
+   dx: 10
+   dy: 10
+   dx: 9
+   dy: 9
+   dx: 10
+   dy: 9
+   dx: 8
+   dy: 8
+   dx: 9
+   dy: 8
+   dx: 8
+   dy: 7
+   dx: 9
+   dy: 7
+   dx: 7
+   dy: 6
+   dx: 8
+   dy: 6
+   dx: 7
+   dy: 5
+   dx: 8
+   dy: 5
+   dx: 6
+   dy: 5
+   dx: 7
+   dy: 5
+   dx: 6
+   dy: 4
+   dx: 7
+   dy: 4
+   dx: 5
+   dy: 4
+   dx: 6
+   dy: 4
+   dx: 5
+   dy: 3
+   dx: 6
+   dy: 3
+   dx: 4
+   dy: 4
+   dx: 5
+   dy: 4
+   dx: 4
+   dy: 3
+   dx: 5
+   dy: 3
+   dx: 3
+   dy: 2
+   dx: 4
+   dy: 2
+   dx: 3
+   dy: 1
+   dx: 4
+   dy: 1
+   dx: 2
+   dy: 1
+   dx: 3
+   dy: 1
+   dx: 2
+   dy: 0
+   dx: 3
+   dy: 0
+   dx: 1
+   dy: 1
+   dx: 2
+   dy: 1
+   dx: 1
+   dy: 0
+   dx: 2
+   dy: 0
+   dx: 8
+   dy: 1
+   dx: 8
+   dy: 0
+   dx: 7
+   dy: 0
+   dx: 9
+   dy: 2
+   dx: 9
+   dy: 1
+   dx: 8
+   dy: 1
+   dx: 8
+   dy: 0
+   dx: 8
+   dy: 1
+   dx: 7
+   dy: 1
+   dx: 10
+   dy: 1
+   dx: 10
+   dy: 2
+   dx: 9
+   dy: 2
+   dx: 9
+   dy: 5
+   dx: 9
+   dy: 6
+   dx: 8
+   dy: 6
+   dx: 6
+   dy: 8
+   dx: 6
+   dy: 9
+   dx: 5
+   dy: 9
+   dx: 5
+   dy: 9
+   dx: 5
+   dy: 10
+   dx: 4
+   dy: 10
+   dx: 9
+   dy: 0
+   dx: 8
+   dy: 0
+   dx: 7
+   dy: 0
+   dx: 6
+   dy: 0
+   dx: 6
+   dy: 0
+   dx: 5
+   dy: 0
+   dx: 10
+   dy: 1
+   dx: 9
+   dy: 1
+   dx: 10
+   dy: 2
+   dx: 9
+   dy: 2
+   dx: 9
+   dy: 3
+   dx: 8
+   dy: 3
+   dx: 11
+   dy: 4
+   dx: 10
+   dy: 4
+   dx: 11
+   dy: 6
+   dx: 10
+   dy: 6
+   dx: 10
+   dy: 7
+   dx: 9
+   dy: 7
+   dx: 10
+   dy: 8
+   dx: 9
+   dy: 8
+   dx: 9
+   dy: 9
+   dx: 8
+   dy: 9
+   dx: 8
+   dy: 10
+   dx: 7
+   dy: 10
+   dx: 6
+   dy: 11
+   dx: 5
+   dy: 11
+   dx: 6
+   dy: 12
+   dx: 5
+   dy: 12
+   dx: 5
+   dy: 13
+   dx: 4
+   dy: 13
+   dx: 4
+   dy: 14
+   dx: 3
+   dy: 14
+   dx: 9
+   dy: 3
+   dx: 8
+   dy: 3
+   dx: 7
+   dy: 3
+   dx: 10
+   dy: 2
+   dx: 9
+   dy: 2
+   dx: 8
+   dy: 2
+   dx: 10
+   dy: 1
+   dx: 9
+   dy: 1
+   dx: 8
+   dy: 1
+   dx: 9
+   dy: 0
+   dx: 8
+   dy: 0
+   dx: 7
+   dy: 0
+   dx: 10
+   dy: 4
+   dx: 9
+   dy: 4
+   dx: 8
+   dy: 4
+   dx: 10
+   dy: 5
+   dx: 9
+   dy: 5
+   dx: 8
+   dy: 5
+   dx: 9
+   dy: 6
+   dx: 8
+   dy: 6
+   dx: 7
+   dy: 6
+   dx: 8
+   dy: 7
+   dx: 7
+   dy: 7
+   dx: 6
+   dy: 7
+   dx: 6
+   dy: 8
+   dx: 5
+   dy: 8
+   dx: 4
+   dy: 8
+   dx: 6
+   dy: 9
+   dx: 5
+   dy: 9
+   dx: 4
+   dy: 9
+   dx: 5
+   dy: 10
+   dx: 4
+   dy: 10
+   dx: 3
+   dy: 10
+   dx: 4
+   dy: 11
+   dx: 3
+   dy: 11
+   dx: 2
+   dy: 11
+   dx: 8
+   dy: 4
+   dx: 7
+   dy: 5
+   dx: 9
+   dy: 3
+   dx: 8
+   dy: 4
+   dx: 8
+   dy: 3
+   dx: 7
+   dy: 4
+   dx: 9
+   dy: 2
+   dx: 8
+   dy: 3
+   dx: 10
+   dy: 1
+   dx: 9
+   dy: 2
+   dx: 9
+   dy: 1
+   dx: 8
+   dy: 2
+   dx: 9
+   dy: 2
+   dx: 8
+   dy: 1
+   dx: 10
+   dy: 3
+   dx: 9
+   dy: 2
+   dx: 9
+   dy: 3
+   dx: 8
+   dy: 2
+   dx: 8
+   dy: 4
+   dx: 7
+   dy: 3
+   dx: 9
+   dy: 5
+   dx: 8
+   dy: 4
+   dx: 8
+   dy: 5
+   dx: 7
+   dy: 4
+   dx: 7
+   dy: 5
+   dx: 6
+   dy: 4
+   dx: 8
+   dy: 6
+   dx: 7
+   dy: 5
+   dx: 7
+   dy: 6
+   dx: 6
+   dy: 5
+   dx: 6
+   dy: 6
+   dx: 5
+   dy: 5
+   dx: 7
+   dy: 7
+   dx: 6
+   dy: 6
+   dx: 6
+   dy: 7
+   dx: 5
+   dy: 6
+   dx: 5
+   dy: 6
+   dx: 4
+   dy: 5
+   dx: 6
+   dy: 7
+   dx: 5
+   dy: 6
+   dx: 5
+   dy: 7
+   dx: 4
+   dy: 6
+   dx: 4
+   dy: 8
+   dx: 3
+   dy: 7
+   dx: 5
+   dy: 9
+   dx: 4
+   dy: 8
+   dx: 4
+   dy: 9
+   dx: 3
+   dy: 8
+   dx: 3
+   dy: 9
+   dx: 2
+   dy: 8
+   dx: 4
+   dy: 10
+   dx: 3
+   dy: 9
+   dx: 3
+   dy: 10
+   dx: 2
+   dy: 9
+   dx: 9
+   dy: 7
+   dx: 8
+   dy: 7
+   dx: 9
+   dy: 6
+   dx: 8
+   dy: 6
+   dx: 10
+   dy: 6
+   dx: 9
+   dy: 6
+   dx: 10
+   dy: 5
+   dx: 9
+   dy: 5
+   dx: 10
+   dy: 1
+   dx: 9
+   dy: 1
+   dx: 10
+   dy: 0
+   dx: 9
+   dy: 0
+   dx: 9
+   dy: 1
+   dx: 8
+   dy: 1
+   dx: 9
+   dy: 2
+   dx: 8
+   dy: 2
+   dx: 8
+   dy: 2
+   dx: 7
+   dy: 2
+   dx: 8
+   dy: 3
+   dx: 7
+   dy: 3
+   dx: 7
+   dy: 3
+   dx: 6
+   dy: 3
+   dx: 7
+   dy: 4
+   dx: 6
+   dy: 4
+   dx: 5
+   dy: 5
+   dx: 4
+   dy: 5
+   dx: 5
+   dy: 6
+   dx: 4
+   dy: 6
+   dx: 4
+   dy: 6
+   dx: 3
+   dy: 6
+   dx: 4
+   dy: 7
+   dx: 3
+   dy: 7
+   dx: 9
+   dy: 1
+   dx: 10
+   dy: 1
+   dx: 8
+   dy: 1
+   dx: 9
+   dy: 1
+   dx: 10
+   dy: 0
+   dx: 11
+   dy: 0
+   dx: 9
+   dy: 0
+   dx: 10
+   dy: 0
+   dx: 11
+   dy: 1
+   dx: 12
+   dy: 1
+   dx: 10
+   dy: 1
+   dx: 11
+   dy: 1
+   dx: 11
+   dy: 3
+   dx: 12
+   dy: 3
+   dx: 10
+   dy: 3
+   dx: 11
+   dy: 3
+   dx: 10
+   dy: 7
+   dx: 11
+   dy: 7
+   dx: 9
+   dy: 7
+   dx: 10
+   dy: 7
+   dx: 9
+   dy: 8
+   dx: 10
+   dy: 8
+   dx: 8
+   dy: 8
+   dx: 9
+   dy: 8
+   dx: 8
+   dy: 9
+   dx: 9
+   dy: 9
+   dx: 7
+   dy: 9
+   dx: 8
+   dy: 9
+   dx: 6
+   dy: 10
+   dx: 7
+   dy: 10
+   dx: 5
+   dy: 10
+   dx: 6
+   dy: 10
+   dx: 6
+   dy: 11
+   dx: 7
+   dy: 11
+   dx: 5
+   dy: 11
+   dx: 6
+   dy: 11
+   dx: 5
+   dy: 12
+   dx: 6
+   dy: 12
+   dx: 4
+   dy: 12
+   dx: 5
+   dy: 12
+   dx: 4
+   dy: 13
+   dx: 5
+   dy: 13
+   dx: 3
+   dy: 13
+   dx: 4
+   dy: 13
+   dx: 10
+   dy: 1
+   dx: 10
+   dy: 0
+   dx: 11
+   dy: 1
+   dx: 11
+   dy: 2
+   dx: 11
+   dy: 0
+   dx: 11
+   dy: 1
+   dx: 11
+   dy: 2
+   dx: 11
+   dy: 3
+   dx: 11
+   dy: 5
+   dx: 11
+   dy: 6
+   dx: 10
+   dy: 5
+   dx: 10
+   dy: 6
+   dx: 9
+   dy: 6
+   dx: 9
+   dy: 7
+   dx: 8
+   dy: 7
+   dx: 8
+   dy: 8
+   dx: 7
+   dy: 8
+   dx: 7
+   dy: 9
+   dx: 6
+   dy: 8
+   dx: 6
+   dy: 9
+   dx: 5
+   dy: 10
+   dx: 5
+   dy: 11
+   dx: 4
+   dy: 11
+   dx: 4
+   dy: 12
+   dx: 8
+   dy: 1
+   dx: 7
+   dy: 1
+   dx: 7
+   dy: 2
+   dx: 6
+   dy: 2
+   dx: 7
+   dy: 2
+   dx: 6
+   dy: 2
+   dx: 6
+   dy: 3
+   dx: 5
+   dy: 3
+   dx: 11
+   dy: 14
+   dx: 11
+   dy: 13
+   dx: 10
+   dy: 13
+   dx: 11
+   dy: 13
+   dx: 11
+   dy: 12
+   dx: 10
+   dy: 12
+   dx: 11
+   dy: 7
+   dx: 11
+   dy: 6
+   dx: 10
+   dy: 6
+   dx: 9
+   dy: 5
+   dx: 9
+   dy: 4
+   dx: 8
+   dy: 4
+   dx: 7
+   dy: 3
+   dx: 7
+   dy: 2
+   dx: 6
+   dy: 2
+   dx: 10
+   dy: 3
+   dx: 11
+   dy: 2
+   dx: 10
+   dy: 2
+   dx: 10
+   dy: 4
+   dx: 11
+   dy: 5
+   dx: 10
+   dy: 5
+   dx: 9
+   dy: 5
+   dx: 10
+   dy: 6
+   dx: 9
+   dy: 6
+   dx: 8
+   dy: 7
+   dx: 9
+   dy: 8
+   dx: 8
+   dy: 8
+   dx: 7
+   dy: 9
+   dx: 8
+   dy: 10
+   dx: 7
+   dy: 10
+   dx: 6
+   dy: 9
+   dx: 7
+   dy: 10
+   dx: 6
+   dy: 10
+   dx: 5
+   dy: 9
+   dx: 6
+   dy: 10
+   dx: 5
+   dy: 10
+   dx: 4
+   dy: 10
+   dx: 5
+   dy: 11
+   dx: 4
+   dy: 11
+   dx: 10
+   dy: 3
+   dx: 9
+   dy: 3
+   dx: 8
+   dy: 3
+   dx: 9
+   dy: 4
+   dx: 8
+   dy: 4
+   dx: 7
+   dy: 4
+   dx: 9
+   dy: 5
+   dx: 8
+   dy: 5
+   dx: 7
+   dy: 5
+   dx: 8
+   dy: 6
+   dx: 7
+   dy: 6
+   dx: 6
+   dy: 6
+   dx: 8
+   dy: 7
+   dx: 7
+   dy: 7
+   dx: 6
+   dy: 7
+   dx: 5
+   dy: 8
+   dx: 4
+   dy: 8
+   dx: 3
+   dy: 8
+   dx: 4
+   dy: 9
+   dx: 3
+   dy: 9
+   dx: 2
+   dy: 9
+   dx: 11
+   dy: 6
+   dx: 11
+   dy: 5
+   dx: 11
+   dy: 7
+   dx: 11
+   dy: 6
+   dx: 11
+   dy: 4
+   dx: 11
+   dy: 3
+   dx: 11
+   dy: 5
+   dx: 11
+   dy: 4
+   dx: 11
+   dy: 3
+   dx: 11
+   dy: 2
+   dx: 11
+   dy: 1
+   dx: 11
+   dy: 2
+   dx: 10
+   dy: 1
+   dx: 10
+   dy: 2
+   dx: 9
+   dy: 1
+   dx: 9
+   dy: 2
+   dx: 8
+   dy: 3
+   dx: 8
+   dy: 4
+   dx: 7
+   dy: 5
+   dx: 7
+   dy: 6
+   dx: 6
+   dy: 5
+   dx: 6
+   dy: 6
+   dx: 5
+   dy: 5
+   dx: 5
+   dy: 6
+   dx: 4
+   dy: 6
+   dx: 4
+   dy: 7
+   dx: 12
+   dy: 9
+   dx: 11
+   dy: 9
+   dx: 10
+   dy: 9
+   dx: 11
+   dy: 10
+   dx: 10
+   dy: 10
+   dx: 9
+   dy: 10
+   dx: 10
+   dy: 11
+   dx: 9
+   dy: 11
+   dx: 8
+   dy: 11
+   dx: 10
+   dy: 12
+   dx: 9
+   dy: 12
+   dx: 8
+   dy: 12
+   dx: 7
+   dy: 13
+   dx: 6
+   dy: 13
+   dx: 5
+   dy: 13
+   dx: 6
+   dy: 14
+   dx: 5
+   dy: 14
+   dx: 4
+   dy: 14
+   dx: 12
+   dy: 1
+   dx: 12
+   dy: 0
+   dx: 12
+   dy: 2
+   dx: 12
+   dy: 1
+   dx: 12
+   dy: 1
+   dx: 12
+   dy: 2
+   dx: 12
+   dy: 0
+   dx: 12
+   dy: 1
+   dx: 12
+   dy: 2
+   dx: 12
+   dy: 3
+   dx: 12
+   dy: 6
+   dx: 12
+   dy: 7
+   dx: 11
+   dy: 6
+   dx: 11
+   dy: 7
+   dx: 10
+   dy: 7
+   dx: 10
+   dy: 8
+   dx: 9
+   dy: 8
+   dx: 9
+   dy: 9
+   dx: 8
+   dy: 10
+   dx: 8
+   dy: 11
+   dx: 7
+   dy: 11
+   dx: 7
+   dy: 12
+   dx: 6
+   dy: 11
+   dx: 6
+   dy: 12
+   dx: 5
+   dy: 11
+   dx: 5
+   dy: 12
+   dx: 12
+   dy: 3
+   dx: 11
+   dy: 3
+   dx: 12
+   dy: 1
+   dx: 11
+   dy: 1
+   dx: 11
+   dy: 6
+   dx: 10
+   dy: 6
+   dx: 10
+   dy: 7
+   dx: 9
+   dy: 7
+   dx: 9
+   dy: 8
+   dx: 8
+   dy: 8
+   dx: 9
+   dy: 9
+   dx: 8
+   dy: 9
+   dx: 8
+   dy: 10
+   dx: 7
+   dy: 10
+   dx: 5
+   dy: 11
+   dx: 4
+   dy: 11
+   dx: 9
+   dy: 7
+   dx: 8
+   dy: 7
+   dx: 8
+   dy: 8
+   dx: 7
+   dy: 8
+   dx: 7
+   dy: 9
+   dx: 6
+   dy: 9
+   dx: 6
+   dy: 10
+   dx: 5
+   dy: 10
+   dx: 9
+   dy: 3
+   dx: 8
+   dy: 3
+   dx: 8
+   dy: 4
+   dx: 9
+   dy: 5
+   dx: 8
+   dy: 5
+   dx: 8
+   dy: 6
+   dx: 9
+   dy: 4
+   dx: 8
+   dy: 4
+   dx: 8
+   dy: 5
+   dx: 8
+   dy: 6
+   dx: 7
+   dy: 6
+   dx: 7
+   dy: 7
+   dx: 6
+   dy: 7
+   dx: 5
+   dy: 7
+   dx: 5
+   dy: 8
+   dx: 11
+   dy: 5
+   dx: 12
+   dy: 5
+   dx: 10
+   dy: 5
+   dx: 11
+   dy: 5
+   dx: 11
+   dy: 4
+   dx: 12
+   dy: 4
+   dx: 10
+   dy: 4
+   dx: 11
+   dy: 4
+   dx: 10
+   dy: 5
+   dx: 11
+   dy: 5
+   dx: 9
+   dy: 5
+   dx: 10
+   dy: 5
+   dx: 10
+   dy: 6
+   dx: 11
+   dy: 6
+   dx: 9
+   dy: 6
+   dx: 10
+   dy: 6
+   dx: 9
+   dy: 7
+   dx: 10
+   dy: 7
+   dx: 8
+   dy: 7
+   dx: 9
+   dy: 7
+   dx: 7
+   dy: 8
+   dx: 8
+   dy: 8
+   dx: 6
+   dy: 8
+   dx: 7
+   dy: 8
+   dx: 4
+   dy: 9
+   dx: 5
+   dy: 9
+   dx: 3
+   dy: 9
+   dx: 4
+   dy: 9
+   dx: 12
+   dy: 6
+   dx: 12
+   dy: 7
+   dx: 11
+   dy: 6
+   dx: 11
+   dy: 7
+   dx: 12
+   dy: 3
+   dx: 12
+   dy: 2
+   dx: 11
+   dy: 3
+   dx: 11
+   dy: 2
+   dx: 11
+   dy: 4
+   dx: 11
+   dy: 3
+   dx: 10
+   dy: 4
+   dx: 10
+   dy: 3
+   dx: 11
+   dy: 5
+   dx: 11
+   dy: 4
+   dx: 10
+   dy: 5
+   dx: 10
+   dy: 4
+   dx: 10
+   dy: 6
+   dx: 10
+   dy: 5
+   dx: 9
+   dy: 6
+   dx: 9
+   dy: 5
+   dx: 8
+   dy: 7
+   dx: 8
+   dy: 6
+   dx: 7
+   dy: 7
+   dx: 7
+   dy: 6
+   dx: 6
+   dy: 8
+   dx: 6
+   dy: 7
+   dx: 5
+   dy: 8
+   dx: 5
+   dy: 7
+   dx: 11
+   dy: 6
+   dx: 11
+   dy: 5
+   dx: 11
+   dy: 2
+   dx: 11
+   dy: 3
+   dx: 10
+   dy: 3
+   dx: 10
+   dy: 4
+   dx: 9
+   dy: 5
+   dx: 9
+   dy: 6
+   dx: 8
+   dy: 6
+   dx: 8
+   dy: 7
+   dx: 7
+   dy: 6
+   dx: 7
+   dy: 7
+   dx: 6
+   dy: 7
+   dx: 6
+   dy: 8
+   dx: 13
+   dy: 3
+   dx: 12
+   dy: 4
+   dx: 12
+   dy: 3
+   dx: 11
+   dy: 4
+   dx: 12
+   dy: 7
+   dx: 11
+   dy: 6
+   dx: 11
+   dy: 7
+   dx: 10
+   dy: 6
+   dx: 12
+   dy: 8
+   dx: 11
+   dy: 7
+   dx: 11
+   dy: 8
+   dx: 10
+   dy: 7
+   dx: 11
+   dy: 9
+   dx: 10
+   dy: 8
+   dx: 10
+   dy: 9
+   dx: 9
+   dy: 8
+   dx: 9
+   dy: 10
+   dx: 8
+   dy: 9
+   dx: 8
+   dy: 10
+   dx: 7
+   dy: 9
+   dx: 8
+   dy: 11
+   dx: 7
+   dy: 10
+   dx: 7
+   dy: 11
+   dx: 6
+   dy: 10
+   dx: 11
+   dy: 3
+   dx: 12
+   dy: 3
+   dx: 11
+   dy: 2
+   dx: 10
+   dy: 3
+   dx: 11
+   dy: 3
+   dx: 10
+   dy: 2
+   dx: 11
+   dy: 4
+   dx: 12
+   dy: 4
+   dx: 11
+   dy: 3
+   dx: 10
+   dy: 4
+   dx: 11
+   dy: 4
+   dx: 10
+   dy: 3
+   dx: 10
+   dy: 4
+   dx: 11
+   dy: 4
+   dx: 10
+   dy: 3
+   dx: 9
+   dy: 4
+   dx: 10
+   dy: 4
+   dx: 9
+   dy: 3
+   dx: 10
+   dy: 5
+   dx: 11
+   dy: 5
+   dx: 10
+   dy: 4
+   dx: 9
+   dy: 5
+   dx: 10
+   dy: 5
+   dx: 9
+   dy: 4
+   dx: 8
+   dy: 5
+   dx: 9
+   dy: 5
+   dx: 8
+   dy: 4
+   dx: 7
+   dy: 5
+   dx: 8
+   dy: 5
+   dx: 7
+   dy: 4
+   dx: 8
+   dy: 6
+   dx: 9
+   dy: 6
+   dx: 8
+   dy: 5
+   dx: 7
+   dy: 6
+   dx: 8
+   dy: 6
+   dx: 7
+   dy: 5
+   dx: 12
+   dy: 0
+   dx: 13
+   dy: 0
+   dx: 11
+   dy: 0
+   dx: 12
+   dy: 0
+   dx: 10
+   dy: 0
+   dx: 11
+   dy: 0
+   dx: 12
+   dy: 1
+   dx: 13
+   dy: 1
+   dx: 11
+   dy: 1
+   dx: 12
+   dy: 1
+   dx: 10
+   dy: 1
+   dx: 11
+   dy: 1
+   dx: 11
+   dy: 2
+   dx: 12
+   dy: 2
+   dx: 10
+   dy: 2
+   dx: 11
+   dy: 2
+   dx: 9
+   dy: 2
+   dx: 10
+   dy: 2
+   dx: 10
+   dy: 3
+   dx: 11
+   dy: 3
+   dx: 9
+   dy: 3
+   dx: 10
+   dy: 3
+   dx: 8
+   dy: 3
+   dx: 9
+   dy: 3
+   dx: 10
+   dy: 4
+   dx: 11
+   dy: 4
+   dx: 9
+   dy: 4
+   dx: 10
+   dy: 4
+   dx: 8
+   dy: 4
+   dx: 9
+   dy: 4
+   dx: 11
+   dy: 1
+   dx: 10
+   dy: 1
+   dx: 11
+   dy: 0
+   dx: 10
+   dy: 0
+   dx: 9
+   dy: 0
+   dx: 10
+   dy: 1
+   dx: 9
+   dy: 1
+   dx: 8
+   dy: 1
+   dx: 9
+   dy: 2
+   dx: 11
+   dy: 3
+   dx: 12
+   dy: 2
+   dx: 11
+   dy: 2
+   dx: 10
+   dy: 0
+   dx: 11
+   dy: 1
+   dx: 10
+   dy: 1
+   dx: 12
+   dy: 3
+   dx: 12
+   dy: 2
+   dx: 11
+   dy: 2
+   dx: 10
+   dy: 2
+   dx: 11
+   dy: 2
+   dx: 11
+   dy: 1
+   dx: 10
+   dy: 1
+   dx: 9
+   dy: 1
+   dx: 12
+   dy: 2
+   dx: 12
+   dy: 1
+   dx: 11
+   dy: 1
+   dx: 10
+   dy: 1
+   dx: 12
+   dy: 10
+   dx: 11
+   dy: 10
+   dx: 13
+   dy: 11
+   dx: 12
+   dy: 11
+   dx: 13
+   dy: 12
+   dx: 12
+   dy: 12
+   dx: 13
+   dy: 13
+   dx: 12
+   dy: 13
+   dx: 11
+   dy: 13
+   dx: 10
+   dy: 13
+   dx: 10
+   dy: 13
+   dx: 9
+   dy: 13
+   dx: 13
+   dy: 10
+   dx: 14
+   dy: 10
+   dx: 13
+   dy: 11
+   dx: 14
+   dy: 11
+   dx: 10
+   dy: 13
+   dx: 11
+   dy: 13
+   dx: 10
+   dy: 14
+   dx: 11
+   dy: 14
+   dx: 13
+   dy: 10
+   dx: 12
+   dy: 10
+   dx: 13
+   dy: 11
+   dx: 12
+   dy: 11
+   dx: 13
+   dy: 12
+   dx: 12
+   dy: 12
+   dx: 11
+   dy: 12
+   dx: 10
+   dy: 12
+   dx: 10
+   dy: 12
+   dx: 9
+   dy: 12

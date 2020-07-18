@@ -22,6 +22,13 @@ int absolute_distance(t_game *g, int i, int j, int k)
 	dx *= (dx < 0) ? -1 : 1;
 	dy = (g->pc.placement[i][j] / g->map.col) - (g->op.last[k] / g->map.col);
 	dy *= (dy < 0) ? -1 : 1;
+	// ft_putstr_fd("\nlap ", g->fd_bot);
+	// ft_putnbr_fd(g->lap, g->fd_bot);
+	// ft_putstr_fd("\n   dx: ", g->fd_bot);
+	// ft_putnbr_fd(dx, g->fd_bot);
+	// ft_putstr_fd("\n   dy: ", g->fd_bot);
+	// ft_putnbr_fd(dy, g->fd_bot);
+
 	return (dx + dy);
 }
 
