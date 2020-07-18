@@ -70,6 +70,7 @@ typedef struct	s_place
 {
 	int			out;
 	int			n_place;
+	int			place_i;
 	int			map_start;
 	int			pc_start;
 	int			*pc;
@@ -105,13 +106,19 @@ int		parse_piece(t_game *game);
 int		compare_map(t_game *game);
 int		parse_map(t_game *game, int i, int j);
 /*
+**		get_placement.c
+*/
+int		*dup_blok(int *blok, int n_blok);
+int		check_if_out(t_game *g, t_place *p, int i);
+int		index_translation(t_game *g, t_place *p, int i);
+void	adapt_index(t_game *game, t_place *p);
+void	get_placement(t_game *game);
+/*
 **		resolution.c
 */
-void	adapt_index(t_game *game, t_place *p);
-void	check_placement(t_game *game);
+int		absolute_distance(t_game *g, int i, int j, int k);
 void	put_piece(t_game *game);
-int		*dup_blok(int *blok, int n_blok);
-int		algo(t_game *game);
+int		algo(t_game *game, int i, int j, int k);
 /*
 **		tool.c
 */

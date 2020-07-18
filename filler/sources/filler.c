@@ -32,16 +32,12 @@ void reset(t_game *game, int end)
 	ft_intdel(&game->pc.blok);
 	ft_frintab(game->pc.placement, (game->pl.n_blok * game->pc.n_blok) + 1);
 	game->pc.n_blok = 0;
-
 	game->pl.n_blok = 0;
 	ft_intdel(&game->pl.blok);
-
 	game->op.n_last = 0;
 	ft_intdel(&game->op.last);
-
 	if (end)
 		end_game(game);
-
 	game->lap++;
 }
 
@@ -65,6 +61,7 @@ int		start_game(t_game *game)
 			compare_map(game);
 		if (!(parse_piece(game)))
 			reset(game, 1);
+		get_placement(game);
 		put_piece(game);
 		reset(game, 0);
 	}
