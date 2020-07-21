@@ -25,7 +25,7 @@ void	ft_frintab(int **tab, int size)
 	int i;
 
 	i = -1;
-	if (!tab || !*tab)
+	if (!tab)// || !*tab)
 		return ;
 	while (++i < size)
 	{

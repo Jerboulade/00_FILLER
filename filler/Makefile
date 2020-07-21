@@ -2,7 +2,7 @@
 
 NAME = jecarere.filler
 SRC = ./sources/*.c
-CC = gcc -fsanitize=address
+CC = gcc
 CFLAG = -Wall -Wextra -Werror
 O = ./source/*.o
 LIB = libft/libft.a

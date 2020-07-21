@@ -27,7 +27,7 @@ int *dup_blok(int *blok, int n_blok)
 	return (dup);
 }
 
-int		check_if_out(t_game *g, t_place *p, int i)
+int	check_if_out(t_game *g, t_place *p, int i)
 {
 	int x1;
 	int x2;
@@ -53,7 +53,7 @@ int		check_if_out(t_game *g, t_place *p, int i)
 	return (p->out);
 }
 
-int		index_translation(t_game *g, t_place *p, int i)
+int	index_translation(t_game *g, t_place *p, int i)
 {
 	int x1;
 	int x2;

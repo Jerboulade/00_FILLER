@@ -11,13 +11,14 @@
 /* ************************************************************************** */
 #include "../includes/filler.h"
 
-int		get_piece(t_game *game)
+int	get_piece(t_game *game)
 {
 	int		i;
 	int		j;
 
 	if (get_next_line(0, &game->line) < 0)
 		return (0);
+	// ft_putendl_fd(game->line, game->fd_bot);
 	game->pc.li = ft_atoi(ft_strchr(game->line, ' ') + 1);
 	game->pc.col = ft_atoi(ft_strrchr(game->line, ' ') + 1);
 	if ((game->pc.li <= 0) || (game->pc.col <= 0))
@@ -32,6 +33,7 @@ int		get_piece(t_game *game)
 	{
 		if (get_next_line(0, &game->line) < 0)
 			return (0);
+		// ft_putendl_fd(game->line, game->fd_bot);
 		ft_strncpy(game->pc.piece + j, game->line, game->pc.col);
 		j += game->pc.col;
 		ft_strdel(&game->line);
@@ -53,25 +55,28 @@ int		create_map(t_game *game)
 	return (1);
 }
 
-int		get_map(t_game *game, int i, int j)
+int	get_map(t_game *game, int i, int j)
 {
 	if (get_next_line(0, &game->line) < 0)
 		return (0);
+	ft_putendl_fd(game->line, game->fd_bot);
 	if ((!game->line) || (!game->lap && !create_map(game)))
 	{
 		ft_strdel(&game->line);
-		return(0);
+		return (0);
 	}
 	else
 		ft_strcpy(game->map.old_map, game->map.new_map);
 	ft_strdel(&game->line);
 	if (get_next_line(0, &game->line) < 0)
 		return (0);
+	ft_putendl_fd(game->line, game->fd_bot);
 	ft_strdel(&game->line);
 	while (++i < game->map.li)
 	{
 		if (get_next_line(0, &game->line) < 0)
 			return (0);
+		ft_putendl_fd(game->line, game->fd_bot);
 		ft_strncpy(game->map.new_map + j, game->line + 4, game->map.col);
 		j += game->map.col;
 		ft_strdel(&game->line);
@@ -79,14 +84,17 @@ int		get_map(t_game *game, int i, int j)
 	return (1);
 }
 
-int		get_players(t_game *game)
+int	get_players(t_game *game)
 {
 	game->line = NULL;
 	if (get_next_line(0, &game->line) < 0)
 		return (0);
 	game->pl.player = *(ft_strchr(game->line, 'p') + 1);
 	if ((game->pl.player != '1') && (game->pl.player != '2'))
+	{
+		ft_strdel(&game->line);
 		return (0);
+	}
 	game->pl.player = (game->pl.player == '1') ? 'O' : 'X';
 	game->op.opponent = (game->pl.player == 'O') ? 'X' : 'O';
 	ft_strdel(&game->line);
