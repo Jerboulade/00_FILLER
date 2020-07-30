@@ -9,6 +9,7 @@
 /*   Updated: 2019/10/31 18:00:18 by jecarere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "../includes/filler.h"
 
 int	side(t_game *game)
@@ -109,11 +110,11 @@ int	get_piece(t_game *game)
 		ft_strdel(&game->line);
 	}
 	if (!(side(game)))
-		return(0);
+		return (0);
 	return (1);
 }
 
-int		create_map(t_game *game)
+int	create_map(t_game *game)
 {
 	game->map.li = ft_atoi(ft_strchr(game->line, ' ') + 1);
 	game->map.col = ft_atoi(ft_strrchr(game->line, ' ') + 1);

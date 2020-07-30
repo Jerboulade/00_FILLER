@@ -9,6 +9,7 @@
 /*   Updated: 2019/10/31 18:00:21 by jecarere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "../includes/filler.h"
 
 int		parse_piece(t_game *game)
@@ -71,7 +72,6 @@ int		parse_map(t_game *game, int i, int j)
 		if (game->map.new_map[i] == game->pl.player)
 			game->pl.n_blok++;
 	}
-
 	if (!(game->pl.blok = (int *)malloc(sizeof(int) * (game->pl.n_blok + 1))))
 		return (0);
 	game->pl.blok[game->pl.n_blok] = -1;

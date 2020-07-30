@@ -23,7 +23,7 @@ void	end_game(t_game *game)
 	exit(0);
 }
 
-void reset(t_game *game, int end)
+void	reset(t_game *game, int end)
 {
 	game->pc.li = 0;
 	game->pc.col = 0;
@@ -41,9 +41,9 @@ void reset(t_game *game, int end)
 	game->lap++;
 }
 
-int	start_game(t_game *game)
+int		start_game(t_game *game)
 {
-	if ((game->fd_bot = open("./bot_log/log.txt", O_WRONLY| O_CREAT, 0777)) == -1)
+	if ((game->fd_bot = open("./bot_log/log.txt", O_WRONLY | O_CREAT, 0777)) == -1)
 		return (0);
 	if (!(get_players(game)))
 		reset(game, 1);
@@ -70,7 +70,7 @@ int	start_game(t_game *game)
 	return (1);
 }
 
-int	main(void)
+int		main(void)
 {
 	t_game game;
 

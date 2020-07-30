@@ -9,9 +9,10 @@
 /*   Updated: 2019/10/31 16:44:42 by jecarere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "../includes/filler.h"
 
-int *dup_blok(int *blok, int n_blok)
+int		*dup_blok(int *blok, int n_blok)
 {
 	int *dup;
 	int i;
@@ -27,7 +28,7 @@ int *dup_blok(int *blok, int n_blok)
 	return (dup);
 }
 
-int	check_if_out(t_game *g, t_place *p, int i)
+int		check_if_out(t_game *g, t_place *p, int i)
 {
 	int x1;
 	int x2;
@@ -49,7 +50,7 @@ int	check_if_out(t_game *g, t_place *p, int i)
 	return (p->out);
 }
 
-int	index_translation(t_game *g, t_place *p, int i)
+int		index_translation(t_game *g, t_place *p, int i)
 {
 	int x1;
 	int x2;
@@ -90,8 +91,8 @@ void	adapt_index(t_game *g, t_place *p)
 
 void	get_placement(t_game *g, int *start, int n_start)
 {
-	int i;
-	int j;
+	int 	i;
+	int 	j;
 	t_place p;
 
 	i = -1;

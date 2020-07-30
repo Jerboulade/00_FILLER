@@ -9,8 +9,8 @@
 /*   Updated: 2019/10/31 16:44:42 by jecarere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-# include "../includes/filler.h"
 
+#include "../includes/filler.h"
 
 void	init_map(t_game *game)
 {
@@ -47,7 +47,7 @@ void	init_opponent(t_game *game)
 	game->op.last = NULL;
 }
 
-void init_game(t_game *game)
+void	init_game(t_game *game)
 {
 	init_map(game);
 	init_piece(game);

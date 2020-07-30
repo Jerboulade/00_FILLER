@@ -9,16 +9,17 @@
 /*   Updated: 2020/03/11 17:55:40 by jecarere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-# include "../includes/filler.h"
 
-int	*ft_intab(size_t size)
+#include "../includes/filler.h"
+
+int		*ft_intab(size_t size)
 {
-	int	*intab;
-	size_t i;
+	int		*intab;
+	size_t	i;
 
 	i = -1;
 	if (!size)
-		return NULL;
+		return (NULL);
 	if (!(intab = (int *)malloc(sizeof(*intab) * (size + 1))))
 		return (NULL);
 	while (++i < size)

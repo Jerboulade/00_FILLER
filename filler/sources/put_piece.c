@@ -9,9 +9,10 @@
 /*   Updated: 2019/10/31 16:44:42 by jecarere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "../includes/filler.h"
 
-int absolute_distance(t_game *g, int i, int j, int k)
+int 	absolute_distance(t_game *g, int i, int j, int k)
 {
 	float dx;
 	float dy;
@@ -166,7 +167,6 @@ void 	put_piece(t_game *g)
 	// ft_putnbr_fd(sizeof(g), g->fd_bot);
 	// ft_putendl_fd("\n## size of size\n", g->fd_bot);
 	// ft_putnbr_fd(g->map.size + g->pc.size + g->pc.n_blok + g->pl.n_blok + g->op.n_last, g->fd_bot);
-
 	ft_putnbr(y);
 	ft_putchar(' ');
 	ft_putnbr(x);
