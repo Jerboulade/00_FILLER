@@ -11,9 +11,25 @@
 /* ************************************************************************** */
 # include "../includes/filler.h"
 
+int	*ft_intab(size_t size)
+{
+	int	*intab;
+	size_t i;
+
+	i = -1;
+	if (!size)
+		return NULL;
+	if (!(intab = (int *)malloc(sizeof(*intab) * (size + 1))))
+		return (NULL);
+	while (++i < size)
+		intab[i] = 0;
+	intab[i] = -1;
+	return (intab);
+}
+
 void	ft_intdel(int **as)
 {
-	if (as)
+	if (as && *as)
 	{
 		free(*as);
 		*as = NULL;

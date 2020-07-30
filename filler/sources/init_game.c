@@ -29,7 +29,7 @@ void	init_piece(t_game *game)
 	game->pc.piece = NULL;
 	game->pc.n_blok = 0;
 	game->pc.blok = NULL;
-	game->pc.placement = NULL;
+	game->pc.place = NULL;
 }
 
 void	init_player(t_game *game)
@@ -37,6 +37,7 @@ void	init_player(t_game *game)
 	game->pl.player = 0;
 	game->pl.n_blok = 0;
 	game->pl.blok = NULL;
+	game->pl.last = NULL;
 }
 
 void	init_opponent(t_game *game)

@@ -11,6 +11,76 @@
 /* ************************************************************************** */
 #include "../includes/filler.h"
 
+int	side(t_game *game)
+{
+	int i;
+
+	i = -1;
+	if (!(game->map.north_side = ft_intab(game->map.col)))
+		return (0);
+	if (!(game->map.east_side = ft_intab(game->map.li)))
+		return (0);
+	if (!(game->map.south_side = ft_intab(game->map.col)))
+		return (0);
+	if (!(game->map.west_side = ft_intab(game->map.li)))
+		return (0);
+	while (++i < game->map.li)
+	{
+		game->map.east_side[i] = (i * game->map.col) + game->map.col - 1;
+		game->map.west_side[i] = (i * game->map.col);
+	}
+	i = -1;
+	while (++i < game->map.col)
+	{
+		game->map.north_side[i] = i;
+		game->map.south_side[i] = i + ((game->map.li - 1) * game->map.col);
+	}
+	// ##########print#######################################
+	// ft_putendl_fd(" ############################", game->fd_bot);
+	// i = -1;
+	// while (++i < game->map.size)
+	// {
+	// 	if (!(i % game->map.col))
+	// 		ft_putchar_fd('\n', game->fd_bot);
+	// 	ft_putnbr_fd(i, game->fd_bot);
+	// 	ft_putstr_fd("   ", game->fd_bot);
+	// }
+	// i = -1;
+	// ft_putchar_fd('\n', game->fd_bot);
+	// ft_putendl_fd(" east ", game->fd_bot);
+	// while (++i < game->map.li)
+	// {
+	// 	ft_putnbr_fd(game->map.east_side[i], game->fd_bot);
+	// 	ft_putchar_fd(' ', game->fd_bot);
+	// }
+	// ft_putchar_fd('\n', game->fd_bot);
+	// i = -1;
+	// ft_putendl_fd(" west ", game->fd_bot);
+	// while (++i < game->map.li)
+	// {
+	// 	ft_putnbr_fd(game->map.west_side[i], game->fd_bot);
+	// 	ft_putchar_fd(' ', game->fd_bot);
+	// }
+	// ft_putchar_fd('\n', game->fd_bot);
+	// i = -1;
+	// ft_putendl_fd(" north ", game->fd_bot);
+	// while (++i < game->map.col)
+	// {
+	// 	ft_putnbr_fd(game->map.north_side[i], game->fd_bot);
+	// 	ft_putchar_fd(' ', game->fd_bot);
+	// }
+	// ft_putchar_fd('\n', game->fd_bot);
+	// i = -1;
+	// ft_putendl_fd(" south ", game->fd_bot);
+	// while (++i < game->map.col)
+	// {
+	// 	ft_putnbr_fd(game->map.south_side[i], game->fd_bot);
+	// 	ft_putchar_fd(' ', game->fd_bot);
+	// }
+	// ##########print#######################################
+	return (1);
+}
+
 int	get_piece(t_game *game)
 {
 	int		i;
@@ -38,6 +108,8 @@ int	get_piece(t_game *game)
 		j += game->pc.col;
 		ft_strdel(&game->line);
 	}
+	if (!(side(game)))
+		return(0);
 	return (1);
 }
 
@@ -59,7 +131,7 @@ int	get_map(t_game *game, int i, int j)
 {
 	if (get_next_line(0, &game->line) < 0)
 		return (0);
-	ft_putendl_fd(game->line, game->fd_bot);
+	// ft_putendl_fd(game->line, game->fd_bot);
 	if ((!game->line) || (!game->lap && !create_map(game)))
 	{
 		ft_strdel(&game->line);
@@ -70,13 +142,13 @@ int	get_map(t_game *game, int i, int j)
 	ft_strdel(&game->line);
 	if (get_next_line(0, &game->line) < 0)
 		return (0);
-	ft_putendl_fd(game->line, game->fd_bot);
+	// ft_putendl_fd(game->line, game->fd_bot);
 	ft_strdel(&game->line);
 	while (++i < game->map.li)
 	{
 		if (get_next_line(0, &game->line) < 0)
 			return (0);
-		ft_putendl_fd(game->line, game->fd_bot);
+		// ft_putendl_fd(game->line, game->fd_bot);
 		ft_strncpy(game->map.new_map + j, game->line + 4, game->map.col);
 		j += game->map.col;
 		ft_strdel(&game->line);

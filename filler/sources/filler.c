@@ -30,7 +30,7 @@ void reset(t_game *game, int end)
 	game->pc.size = 0;
 	ft_strdel(&game->pc.piece);
 	ft_intdel(&game->pc.blok);
-	ft_frintab(game->pc.placement, (game->pl.n_blok * game->pc.n_blok) + 1);
+	ft_frintab(game->pc.place, game->pc.n_place + 1);
 	game->pc.n_blok = 0;
 	game->pl.n_blok = 0;
 	ft_intdel(&game->pl.blok);
@@ -49,6 +49,10 @@ int	start_game(t_game *game)
 		reset(game, 1);
 	while (19)
 	{
+		ft_putstr_fd("#####game lap: ", game->fd_bot);
+		ft_putnbr_fd(game->lap, game->fd_bot);
+		ft_putchar_fd('\n', game->fd_bot);
+		// fprintf(stderr, "##lap : %s--\n", arg->map[i]);
 		if (!(get_map(game, -1, 0)))
 			reset(game, 1);
 		if (!(get_piece(game)))
@@ -59,7 +63,7 @@ int	start_game(t_game *game)
 			compare_map(game);
 		if (!(parse_piece(game)))
 			reset(game, 1);
-		get_placement(game);
+		get_placement(game, game->pl.blok, game->pl.n_blok);
 		put_piece(game);
 		reset(game, 0);
 	}

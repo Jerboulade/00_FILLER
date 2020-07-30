@@ -80,13 +80,13 @@ void	print_game(t_game *game, char *option)
 
 		// ft_putstr_fd("   placement: \n", game->fd_bot);
 		// i = -1;
-		// while (game->pc.placement[++i])
+		// while (game->pc.place[++i])
 		// {
 		// 	ft_putchar_fd('(', game->fd_bot);
 		// 	j = -1;
-		// 	while (game->pc.placement[i][++j] != -1)
+		// 	while (game->pc.place[i][++j] != -1)
 		// 	{
-		// 		ft_putnbr_fd(game->pc.placement[i][j], game->fd_bot);
+		// 		ft_putnbr_fd(game->pc.place[i][j], game->fd_bot);
 		// 		write(game->fd_bot, ", ", 2);
 		// 	}
 		// 	ft_putchar_fd(')', game->fd_bot);
