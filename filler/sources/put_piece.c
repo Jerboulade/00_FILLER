@@ -121,12 +121,12 @@ int		algo(t_game *game, int i, int j, int k)
 				dist += absolute_distance(game, i, j, k);
 			}
 		}
-		if (!i || (surround > top_surround))
+		if ((dist == top_dist) && (surround > top_surround))
 		{
 			top_surround = surround;
 			top_dist_i = i;
 		}
-		if ((!top_surround) && (!i || (dist < top_dist)))
+		if (!i || (dist < top_dist))
 		{
 			top_dist = dist;
 			top_dist_i = i;
