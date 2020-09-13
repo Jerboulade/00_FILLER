@@ -4,7 +4,7 @@ NAME = jecarere.filler
 SRC = ./sources/*.c
 CC = gcc
 CFLAG = -Wall -Wextra -Werror
-O = ./source/*.o
+O = ./sources/*.o
 LIB = libft/libft.a
 
 all: $(NAME)

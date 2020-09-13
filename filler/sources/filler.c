@@ -39,20 +39,17 @@ void	reset(t_game *game, int end)
 	if (end)
 		end_game(game);
 	game->lap++;
+	game->top_dist = 0;
+	game->top_surround = 0;
+	game->top_i = 0;
 }
 
 int		start_game(t_game *game)
 {
-	if ((game->fd_bot = open("./bot_log/log.txt", O_WRONLY | O_CREAT, 0777)) == -1)
-		return (0);
 	if (!(get_players(game)))
 		reset(game, 1);
 	while (19)
 	{
-		ft_putstr_fd("#####game lap: ", game->fd_bot);
-		ft_putnbr_fd(game->lap, game->fd_bot);
-		ft_putchar_fd('\n', game->fd_bot);
-		// fprintf(stderr, "##lap : %s--\n", arg->map[i]);
 		if (!(get_map(game, -1, 0)))
 			reset(game, 1);
 		if (!(get_piece(game)))
@@ -63,7 +60,8 @@ int		start_game(t_game *game)
 			compare_map(game);
 		if (!(parse_piece(game)))
 			reset(game, 1);
-		get_placement(game, game->pl.blok, game->pl.n_blok);
+		if (!(get_placement(game, game->pl.blok, game->pl.n_blok)))
+			reset(game, 0);
 		put_piece(game);
 		reset(game, 0);
 	}

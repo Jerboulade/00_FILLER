@@ -89,7 +89,7 @@ void	adapt_index(t_game *g, t_place *p)
 		ft_intdel(&p->pc);
 }
 
-void	get_placement(t_game *g, int *start, int n_start)
+int	get_placement(t_game *g, int *start, int n_start)
 {
 	int 	i;
 	int 	j;
@@ -99,7 +99,7 @@ void	get_placement(t_game *g, int *start, int n_start)
 	p.place_i = 0;
 	g->pc.n_place = n_start * g->pc.n_blok;
 	if (!(g->pc.place = (int **)malloc(sizeof(int*) * (g->pc.n_place + 1))))
-		return ;
+		return (0);
 	while (++i <= g->pc.n_place)
 		g->pc.place[i] = NULL;
 	i = -1;
@@ -108,11 +108,13 @@ void	get_placement(t_game *g, int *start, int n_start)
 		j = -1;
 		while (++j < g->pc.n_blok)
 		{
-			p.pc = dup_blok(g->pc.blok, g->pc.n_blok);
+			if (!(p.pc = dup_blok(g->pc.blok, g->pc.n_blok)))
+				return (0);
 			p.map_start = start[i];
 			p.pc_start = p.pc[j];
 			p.out = 1;
 			adapt_index(g, &p);
 		}
 	}
+	return (1);
 }

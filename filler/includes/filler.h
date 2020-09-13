@@ -71,6 +71,11 @@ typedef struct	s_game
 	int			fd_bot; // norme pour bot.txt?
 	int			lap;
 	char		*line;
+	int			top_i;
+	float		dist;
+	float		top_dist;
+	int			surround;
+	int			top_surround;
 }				t_game;
 
 typedef struct	s_place
@@ -119,13 +124,12 @@ int		*dup_blok(int *blok, int n_blok);
 int		check_if_out(t_game *g, t_place *p, int i);
 int		index_translation(t_game *g, t_place *p, int i);
 void	adapt_index(t_game *game, t_place *p);
-void	get_placement(t_game *game, int *start, int n_start);
+int		get_placement(t_game *game, int *start, int n_start);
 /*
 **		put_piece.c
 */
 int		absolute_distance(t_game *g, int i, int j, int k);
-int		check_surround(t_game *game, int i, int j);
-int		cut(t_game *game, int i, int j);
+int		check_surround(t_game *game, int p, int c, int nb);
 void	put_piece(t_game *game);
 int		algo(t_game *game, int i, int j, int k);
 /*
