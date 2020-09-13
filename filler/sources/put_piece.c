@@ -43,13 +43,13 @@ int		check_surround(t_game *g, int p, int c, int nb)
 	if ((((p + c - 1) / c) < g->map.li) && (g->map.new_map[p + c - 1] == o) &&\
 		(((p + c - 1) / c) >= 0))
 		nb++;
-	if ((((p - c) / c) >= 0) && (g->map.new_map[p - c] == o))
+	if ((((p - c) / c) >= 0) && ((p - c) >= 0) && (g->map.new_map[p - c] == o))
 		nb++;
-	if ((((p - c + 1) / c) >= 0) && (g->map.new_map[p - c + 1] == o) &&\
-		(((p - c + 1) / c) < c))
+	if ((((p - c + 1) / c) >= 0) && ((p - c + 1) >= 0) &&\
+		(((p - c + 1) / c) < c) && (g->map.new_map[p - c + 1] == o))
 		nb++;
-	if (((p - c - 1) / c) >= 0 && (g->map.new_map[p - c - 1] == o) &&\
-		(((p - c - 1) / c) >= 0))
+	if (((p - c - 1) / c) >= 0 && (((p - c - 1) / c) >= 0) &&\
+		((p - c - 1) >= 0) && (g->map.new_map[p - c - 1] == o) )
 		nb++;
 	return (nb);
 }
