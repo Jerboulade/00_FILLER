@@ -16,10 +16,10 @@ int	get_piece(t_game *game, int i, int j)
 {
 	if (get_next_line(0, &game->line) < 0)
 		return (0);
-	if ((game->strchr = (ft_strchr(game->line, ' ') + 1)))
-		game->pc.li = ft_atoi(game->strchr);
-	if ((game->strrchr = (ft_strrchr(game->line, ' ') + 1)))
-		game->pc.col = ft_atoi(game->strrchr);
+	if ((game->strchr = ft_strchr(game->line, ' ')))
+		game->pc.li = ft_atoi(game->strchr + 1);
+	if ((game->strrchr = ft_strrchr(game->line, ' ')))
+		game->pc.col = ft_atoi(game->strrchr + 1);
 	if ((game->pc.li <= 0) || (game->pc.col <= 0))
 		return (0);
 	game->pc.size = game->pc.li * game->pc.col;
@@ -39,10 +39,10 @@ int	get_piece(t_game *game, int i, int j)
 
 int	create_map(t_game *game)
 {
-	if ((game->strchr = (ft_strchr(game->line, ' ') + 1)))
-		game->map.li = ft_atoi(game->strchr);
-	if ((game->strrchr = (ft_strrchr(game->line, ' ') + 1)))
-		game->map.col = ft_atoi(game->strrchr);
+	if ((game->strchr = ft_strchr(game->line, ' ')))
+		game->map.li = ft_atoi(game->strchr + 1);
+	if ((game->strrchr = ft_strrchr(game->line, ' ')))
+		game->map.col = ft_atoi(game->strrchr + 1);
 	if ((game->map.li <= 0) || (game->map.col <= 0))
 		return (0);
 	game->map.size = game->map.li * game->map.col;
@@ -84,8 +84,8 @@ int	get_players(t_game *game)
 	game->line = NULL;
 	if (get_next_line(0, &game->line) < 0)
 		return (0);
-	if ((game->strchr = (ft_strchr(game->line, 'p') + 1)))
-		game->pl.player = *game->strchr;
+	if ((game->strchr = ft_strchr(game->line, 'p')))
+		game->pl.player = *(game->strchr  + 1);
 	if ((game->pl.player != '1') && (game->pl.player != '2'))
 	{
 		ft_strdel(&game->line);
