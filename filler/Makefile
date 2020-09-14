@@ -1,10 +1,14 @@
 .PHONY: all clean fclean re
 
 NAME = jecarere.filler
-SRC = ./sources/*.c
+SRC = ./sources/filler.c ./sources/get_info.c ./sources/get_placement.c \
+	./sources/init_game.c ./sources/parsing.c ./sources/put_piece.c \
+	./sources/tool.c
+O = ./sources/filler.o ./sources/get_info.o ./sources/get_placement.o \
+	./sources/init_game.o ./sources/parsing.o ./sources/put_piece.o \
+	./sources/tool.o
 CC = gcc
-CFLAG = -fsanitize=address #-Wall -Wextra -Werror
-O = ./sources/*.o
+CFLAG = -Wall -Wextra -Werror
 LIB = libft/libft.a
 
 all: $(NAME)
