@@ -85,7 +85,7 @@ int	get_players(t_game *game)
 	if (get_next_line(0, &game->line) < 0)
 		return (0);
 	if ((game->strchr = ft_strchr(game->line, 'p')))
-		game->pl.player = *(game->strchr  + 1);
+		game->pl.player = *(game->strchr + 1);
 	if ((game->pl.player != '1') && (game->pl.player != '2'))
 	{
 		ft_strdel(&game->line);
