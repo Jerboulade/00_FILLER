@@ -37,7 +37,6 @@ void	init_player(t_game *game)
 	game->pl.player = 0;
 	game->pl.n_blok = 0;
 	game->pl.blok = NULL;
-	game->pl.last = NULL;
 }
 
 void	init_opponent(t_game *game)

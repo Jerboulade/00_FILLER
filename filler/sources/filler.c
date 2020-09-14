@@ -61,9 +61,10 @@ int		start_game(t_game *game)
 		if (!(parse_piece(game)))
 			reset(game, 1);
 		if (!(get_placement(game, game->pl.blok, game->pl.n_blok)))
-			reset(game, 0);
+			reset(game, 1);
 		put_piece(game);
 		reset(game, 0);
+		sleep(1);
 	}
 	return (1);
 }
@@ -74,6 +75,5 @@ int		main(void)
 
 	init_game(&game);
 	start_game(&game);
-	close(game.fd_bot);
 	return (0);
 }

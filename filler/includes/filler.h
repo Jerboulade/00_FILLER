@@ -16,11 +16,6 @@
 # include "stdio.h"
 # include <math.h>
 
-# define X 0
-# define Y 1
-
-
-
 typedef struct	s_map
 {
 	int			li;
@@ -28,10 +23,6 @@ typedef struct	s_map
 	int			size;
 	char		*new_map;
 	char		*old_map;
-	int			*north_side;
-	int			*east_side;
-	int			*south_side;
-	int			*west_side;
 }				t_map;
 
 typedef struct	s_piece
@@ -52,7 +43,6 @@ typedef struct	s_player
 	char		player;
 	int			n_blok;
 	int 		*blok;
-	int			*last;
 }				t_player;
 
 typedef struct	s_opponent
