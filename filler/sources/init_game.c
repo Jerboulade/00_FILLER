@@ -59,5 +59,4 @@ void	init_game(t_game *game)
 	game->surround = 0;
 	game->top_dist = 0;
 	game->top_surround = 0;
-
 }

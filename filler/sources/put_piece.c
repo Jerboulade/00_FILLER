@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   resolution.c                                       :+:      :+:    :+:   */
+/*   put_piece.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jecarere <jecarere@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -12,7 +12,7 @@
 
 #include "../includes/filler.h"
 
-int 	absolute_distance(t_game *g, int i, int j, int k)
+int		absolute_distance(t_game *g, int i, int j, int k)
 {
 	float dx;
 	float dy;
@@ -49,7 +49,7 @@ int		check_surround(t_game *g, int p, int c, int nb)
 		(((p - c + 1) / c) < c) && (g->map.new_map[p - c + 1] == o))
 		nb++;
 	if (((p - c - 1) / c) >= 0 && (((p - c - 1) / c) >= 0) &&\
-		((p - c - 1) >= 0) && (g->map.new_map[p - c - 1] == o) )
+		((p - c - 1) >= 0) && (g->map.new_map[p - c - 1] == o))
 		nb++;
 	return (nb);
 }
@@ -82,7 +82,7 @@ int		algo(t_game *g, int i, int j, int k)
 	return (g->top_i);
 }
 
-void 	put_piece(t_game *g)
+void	put_piece(t_game *g)
 {
 	int x;
 	int y;

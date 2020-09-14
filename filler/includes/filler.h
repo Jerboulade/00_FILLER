@@ -114,7 +114,7 @@ int		*dup_blok(int *blok, int n_blok);
 int		check_if_out(t_game *g, t_place *p, int i);
 int		index_translation(t_game *g, t_place *p, int i);
 void	adapt_index(t_game *game, t_place *p);
-int		get_placement(t_game *game, int *start, int n_start);
+int		get_placement(t_game *game, int *start, int n_start, int i);
 /*
 **		put_piece.c
 */

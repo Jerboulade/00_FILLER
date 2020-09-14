@@ -60,11 +60,10 @@ int		start_game(t_game *game)
 			compare_map(game);
 		if (!(parse_piece(game)))
 			reset(game, 1);
-		if (!(get_placement(game, game->pl.blok, game->pl.n_blok)))
+		if (!(get_placement(game, game->pl.blok, game->pl.n_blok, -1)))
 			reset(game, 1);
 		put_piece(game);
 		reset(game, 0);
-		sleep(1);
 	}
 	return (1);
 }
