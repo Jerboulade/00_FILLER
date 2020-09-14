@@ -64,6 +64,8 @@ typedef struct	s_game
 	float		top_dist;
 	int			surround;
 	int			top_surround;
+	char		*strchr;
+	char		*strrchr;
 }				t_game;
 
 typedef struct	s_place
@@ -95,7 +97,7 @@ void			init_game(t_game *game);
 **		get_info.c
 */
 int				side(t_game *game);
-int				get_piece(t_game *game);
+int				get_piece(t_game *game, int i, int j);
 int				create_map(t_game *game);
 int				get_map(t_game *game, int i, int j);
 int				get_players(t_game *game);

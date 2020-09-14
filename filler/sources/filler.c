@@ -52,7 +52,7 @@ int		start_game(t_game *game)
 	{
 		if (!(get_map(game, -1, 0)))
 			reset(game, 1);
-		if (!(get_piece(game)))
+		if (!(get_piece(game, -1, 0)))
 			reset(game, 1);
 		if (!(parse_map(game, -1, -1)))
 			reset(game, 1);
